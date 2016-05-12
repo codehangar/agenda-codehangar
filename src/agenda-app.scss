@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.agenda {
+  margin: 2em auto;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  .agenda-title {
+    font-size: 2em;
+    font-weight: 800;
+    color: #000;
+  }
+  .agenda-subtitle {
+    font-size: 1em;
+    font-weight: 800;
+    color: #999;
+    margin-top: 0;
+  }
+  .agenda-time-slot {
+    border-radius:4px;
+    padding: .5em;
+    margin-bottom: .5em;
+    border: 1px solid;
+    border-left: 20px solid;
+  }
+  .agenda-date {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  .agenda-day-description{
+    font-weight: 800;
+    color: #999;
+    margin-top: 0;
+    margin-bottom:.25em;
+  }
+  .session-title{
+    font-weight: bold;
+    padding: .4em 0 0 0;
+    font-size: 1.1em;
+  }
+}

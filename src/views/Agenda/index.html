@@ -1,0 +1,93 @@
+<!-- HEADER -->
+<div ng-include="'components/Header-Utils/index.html'"></div>
+
+<div class="agenda">
+
+
+  <div class="container">
+
+    <!-- Agenda Header -->
+    <div class="agenda-header">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Agenda Name -->
+          <h1 class="agenda-title">{{agenda.title}}</h1>
+          <!-- Agenda Subtitle -->
+          <h2 class="agenda-subtitle">{{agenda.subtitle}}</h2>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Agenda Details -->
+    <div class="agenda-details">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <!-- Agenda Dates -->
+          <p><strong><i class="fa fa-calendar"></i> </strong>{{agenda.startDate}} - {{agenda.endDate}}</p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <!-- Event Location -->
+          <p><strong><i class="fa fa-map-marker"></i>  </strong><a ng-href="{{agenda.mapLink}}" target="_blank">{{agenda.address}}</a></p>
+          <!-- Event Description -->
+        </div>
+        <div class="col-xs-12">
+          <a ng-click="isCollapsed = !isCollapsed">View details</a>
+          <div class="collapse" uib-collapse="isCollapsed">
+            <p>{{agenda.description}}</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- Agenda Session Key -->
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="session-key">
+            <span ng-repeat="session in agenda.sessionTypes">
+            <span class="label label-default session session-key-label" ng-style="{'background-color':session.color}">{{session.name}}</span> </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Agenda -->
+  <div class="container">
+    <div class="row-xs-12">
+
+      <div class="agenda-plan">
+        <div class="agenda-day" ng-repeat="day in agenda.plan">
+
+          <div class="panel panel-default">
+            <div class="panel-body">
+
+              <div ng-click="day.isCollapsed = !day.isCollapsed">
+                <div class="agenda-date">{{day.date}}</div>
+                <div class="agenda-day-description">{{day.description}}</div>
+              </div>
+              <div uib-collapse="day.isCollapsed">
+                <div class="agenda-time-slot" ng-repeat="session in day.sessions" ng-style="{'border-color':session.color}">
+                  <div class="time-label"><span class="start-time">{{session.startTime}}</span> - <span class="end-time">{{session.endTime}}</span></div>
+                  <div class="session">
+                    <div class="session-title">{{session.title}}</div>
+                    <div class="session-description">{{session.description}}</div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+
+<!-- <hr> -->
+<div footer></div>

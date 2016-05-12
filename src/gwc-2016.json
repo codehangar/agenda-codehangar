@@ -1,0 +1,79 @@
+[{
+  "agenda": {
+    "title": "Girls Who Code Orlando 2016, Session A",
+    "subtitle": "Camp 1 Class Agenda",
+    "startDate": "Monday, June 13",
+    "endDate": "Friday, June 17",
+    "address": "Melrose Center at the Orlando Public Library, 101 E. Central Blvd. Orlando, FL 32801",
+    "mapLink": "https://www.google.com/maps/place/Melrose+Center/@28.5424635,-81.3793376,17z/data=!3m1!4b1!4m5!3m4!1s0x88e77afc378b4f97:0x88eb726c5efaecd4!8m2!3d28.5424635!4d-81.3771489",
+    "description": "In response to the need to redefine the conversation with our girls regarding futures in technology and science, weVENTURE powered by the Florida Institute of Technology is launching the national program Girls Who Code in Orlando to shift the landscape of technology.",
+    "sessionTypes": [
+      { 
+        "name":"Lecture",
+        "color": "#ccc"
+      },
+      { 
+        "name":"Independent Coding",
+        "color": "#bbb"
+      },
+      { 
+        "name":"Break",
+        "color": "#859900"
+      },
+      { 
+        "name":"Class Project",
+        "color": "#999"
+      },
+      { 
+        "name":"Free Time",
+        "color": "#888"
+      },
+      { 
+        "name":"Group Activity",
+        "color": "#777"
+      },
+      { 
+        "name":"Test/Survey",
+        "color": "#d33682"
+      }
+    ],
+    "plan":[
+      {
+        "date": "Monday, June 13",
+        "description": "Summer Camp Day 1 - Intro & Setup",
+        "sessions":[
+        {
+          "startTime": "9:00",
+          "endTime": "9:30",
+          "title": "Welcome Breakfast",
+          "description": "Welcome everyone to Girls Who Code. Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions",
+          "sessionType": "Break",
+          "color": "#859900"
+        },
+        {
+          "startTime": "9:30",
+          "endTime": "9:40",
+          "title": "Student Survey",
+          "description": "Girls Who Code pre-course research survey.",
+          "sessionType": "Test/Survey",
+          "color": "#d33682"
+        }
+        ]
+      },
+      {
+        "date": "Tuesday, June 14",
+        "description": "Summer Camp Day 2",
+        "sessions":[
+        {
+          "startTime": "9:00",
+          "endTime": "9:30",
+          "title": "Welcome Breakfast",
+          "description": "Welcome everyone to Girls Who Code. Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions",
+          "sessionType": "Break",
+          "color": "#859900"
+        }
+        ]
+      }
+    ]
+  }
+}]
