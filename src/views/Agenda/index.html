@@ -1,5 +1,5 @@
 <!-- HEADER -->
-<div ng-include="'components/Header-Utils/index.html'"></div>
+<!-- <div ng-include="'components/Header-Utils/index.html'"></div> -->
 
 <div class="agenda">
 
@@ -46,7 +46,10 @@
         <div class="col-sm-12">
           <p class="session-key">
             <span ng-repeat="session in agenda.sessionTypes">
-            <span class="label label-default session session-key-label" ng-style="{'background-color':session.color}">{{session.name}}</span> </span>
+            <span class="label label-default session session-key-label" 
+            ng-style="{'background-color':session.color}"
+            ng-click="filterSession(session)"
+            >{{session.name}}</span> </span>
           </p>
         </div>
       </div>
@@ -68,7 +71,7 @@
                 <div class="agenda-day-description">{{day.description}}</div>
               </div>
               <div uib-collapse="day.isCollapsed">
-                <div class="agenda-time-slot" ng-repeat="session in day.sessions" ng-style="{'border-color':session.color}">
+                <div class="agenda-time-slot" ng-repeat="session in day.sessions" ng-style="{'border-color':session.sessionType.color}">
                   <div class="time-label"><span class="start-time">{{session.startTime}}</span> - <span class="end-time">{{session.endTime}}</span></div>
                   <div class="session">
                     <div class="session-title">{{session.title}}</div>

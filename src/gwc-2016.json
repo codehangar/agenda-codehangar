@@ -30,7 +30,7 @@
       },
       { 
         "name":"Group Activity",
-        "color": "#777"
+        "color": "#268bd2"
       },
       { 
         "name":"Test/Survey",
@@ -46,17 +46,31 @@
           "startTime": "9:00",
           "endTime": "9:30",
           "title": "Welcome Breakfast",
-          "description": "Welcome everyone to Girls Who Code. Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions",
-          "sessionType": "Break",
-          "color": "#859900"
+          "description": "Welcome everyone to Girls Who Code. Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions.",
+          "sessionType": {
+            "name": "Break",
+            "color": "#859900"
+          }
         },
         {
           "startTime": "9:30",
           "endTime": "9:40",
           "title": "Student Survey",
           "description": "Girls Who Code pre-course research survey.",
-          "sessionType": "Test/Survey",
-          "color": "#d33682"
+          "sessionType": {
+            "name": "Test/Survey",
+            "color": "#d33682"
+          }
+        },
+        {
+          "startTime": "9:40",
+          "endTime": "10:00",
+          "title": "Class Icebreaker, Student Introductions",
+          "description": "Paper Airplanes",
+          "sessionType": {
+            "name": "Group Activity",
+            "color": "#268bd2"
+          }
         }
         ]
       },
@@ -69,8 +83,10 @@
           "endTime": "9:30",
           "title": "Welcome Breakfast",
           "description": "Welcome everyone to Girls Who Code. Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions",
-          "sessionType": "Break",
-          "color": "#859900"
+          "sessionType": {
+            "name": "Break",
+            "color": "#859900"
+          }
         }
         ]
       }
