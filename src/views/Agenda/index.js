@@ -10,16 +10,36 @@
     $scope.init = function() {
       console.log('Hello AgendaCtrl')
       $scope.isCollapsed = true;
+      $scope.sessionFilters = [];
       getAgenda();
     };
 
     function getAgenda() {
       console.log('get agenda');
       $http.get('gwc-2016.json').success(function(response) {
-          $scope.agenda = response[0].agenda;
-          console.log('$scope.agenda', $scope.agenda);
+        $scope.agenda = response;
+        console.log('$scope.agenda', $scope.agenda);
       });
-      
+    }
+
+    function isSessionInFilterArray(session) {
+      for (var i = 0; i < $scope.sessionFilters.length; i++) {
+        if ($scope.sessionFilters[i] === session) {
+          return true;
+        }
+      }
+    }
+
+    $scope.clickedSession = function(session) {
+      //if session not in filter array, add session to filter array, else remove it
+      if (isSessionInFilterArray(session)) {
+        var index = $scope.sessionFilters.indexOf(session);
+        if (index > -1) {
+          $scope.sessionFilters.splice(index, 1);
+        }
+      } else {
+        $scope.sessionFilters.push(session);
+      }
     }
 
     $scope.init();

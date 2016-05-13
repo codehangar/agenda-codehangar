@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+body{
+  /*background-color:#CDDC39;*/
+}
 .agenda {
   margin: 2em auto;
   font-family: 'Roboto', sans-serif;
@@ -14,6 +17,16 @@
     font-weight: 800;
     color: #999;
     margin-top: 0;
+  }
+  .session-key{
+    padding-bottom:1em;
+    /*font-size: 75%;*/
+  }
+  .session-key-label{
+    cursor: pointer;
+  }
+  .session-key-label.inactive{
+    opacity:.5;
   }
   .agenda-time-slot {
     border-radius:4px;
