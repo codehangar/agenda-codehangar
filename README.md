@@ -1,6 +1,6 @@
 # Code Hangar Utils
 
-[![Build Status](https://travis-ci.org/codehangar/utils-codehangar.svg?branch=master)](https://travis-ci.org/codehangar/utils-codehangar)
+[![Build Status](https://travis-ci.org/codehangar/agenda-codehangar.svg?branch=master)](https://travis-ci.org/codehangar/agenda-codehangar)
 
 ## Getting Started
 ```shell

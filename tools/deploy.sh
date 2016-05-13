@@ -3,7 +3,7 @@
 # Used internally by sshpass pacakge/lib
 export SSHPASS=${DEPLOY_PASS}
 
-REPONAME=utils-codehangar
+REPONAME=agenda-codehangar
 REVISION=${TRAVIS_BUILD_NUMBER}
 REV_NAME=${REPONAME}-${REVISION}
 echo "REV_NAME:" ${REV_NAME}
