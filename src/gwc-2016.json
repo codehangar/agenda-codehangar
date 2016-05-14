@@ -112,6 +112,87 @@
         "name": "Lecture",
         "color": "#b58900"
       }
+    }, {
+      "startTime": "12:00",
+      "endTime": "1:00",
+      "title": "Lunch",
+      "description": "",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "1:00",
+      "endTime": "1:30",
+      "title": "Codesters Intro",
+      "description": "Codesters Lesson 1",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "1:30",
+      "endTime": "2:30",
+      "title": "Independent Coding",
+      "description": "Codesters Lessons 2 - 4",
+      "sessionType": {
+        "name": "Independent Coding",
+        "color": "#6c71c4"
+      }
+    }, {
+      "startTime": "2:30",
+      "endTime": "3:00",
+      "title": "Problem Solving",
+      "description": "How to break down problems and find solutions (yellow wall 2-3pm)",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "3:00",
+      "endTime": "3:30",
+      "title": "Class Project Intro & Idea Generation",
+      "description": "How to break down problems and find solutions (yellow wall 2-3pm)",
+      "sessionType": {
+        "name": "Class Project",
+        "color": "#dc322f"
+      }
+    }, {
+      "startTime": "3:30",
+      "endTime": "3:40",
+      "title": "BREAK",
+      "description": "",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "3:40",
+      "endTime": "4:00",
+      "title": "Melrose Tour",
+      "description": "Show the students the amazing technical resources available to them at the library",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "4:00",
+      "endTime": "4:30",
+      "title": "Class Closing",
+      "description": "Expectations for tomorrow & Closing Icebreaker",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "4:30",
+      "endTime": "5:00",
+      "title": "Free Time",
+      "description": "Girls can socialize, browse the web, work on projects, whatever they like, until we get kicked out.",
+      "sessionType": {
+        "name": "Free Time",
+        "color": "#cb4b16"
+      }
     }]
   }, {
     "date": "Tuesday, June 14",
@@ -125,6 +206,123 @@
         "name": "Break",
         "color": "#859900"
       }
+    }, {
+      "startTime": "9:30",
+      "endTime": "9:50",
+      "title": "Class Icebreaker",
+      "description": "Answer 1: What are your life goals? What do you want to learn about? Mac or PC?",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "9:50",
+      "endTime": "10:00",
+      "title": "What is software?",
+      "description": "Slide Deck: https://drive.google.com/open?id=1lxqAwgxhFwalQIRv-JmizXImePuD-5RilyXG0benfJI",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "title": "Code Together Activity",
+      "description": "",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "10:30",
+      "endTime": "10:40",
+      "title": "BREAK",
+      "description": "",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "10:40",
+      "endTime": "11:40",
+      "title": "Independent Coding",
+      "description": "Codesters lessons 5 & 6",
+      "sessionType": {
+        "name": "Independent Coding",
+        "color": "#6c71c4"
+      }
+    }, {
+      "startTime": "11:40",
+      "endTime": "12:00",
+      "title": "Volunteer Lesson/Discussion",
+      "description": "Topics chosen by one of the volunteer instructors",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "12:00",
+      "endTime": "1:00 ",
+      "title": "Lunch",
+      "description": "Lunch at the History Museum",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "1:00",
+      "endTime": "1:10",
+      "title": "Notable Women Who Code",
+      "description": "Slide Deck",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "1:10",
+      "endTime": "1:30",
+      "title": "Computer Wizardry, Timesaving Tips & Tricks",
+      "description": "Side Deck",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "1:30",
+      "endTime": "2:45",
+      "title": "Independent Coding",
+      "description": "Codesters Lessons 7 & 8",
+      "sessionType": {
+        "name": "Independent Coding",
+        "color": "#6c71c4"
+      }
+    }, {
+      "startTime": "2:45",
+      "endTime": "3:00",
+      "title": "BREAK",
+      "description": "",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "3:00",
+      "endTime": "4:30",
+      "title": "Arduino Workshop",
+      "description": "Lead by Melrose Staff in the Fab Lab",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "4:30",
+      "endTime": "5:00",
+      "title": "Free Time, Expectations for Tomorrow",
+      "description": "Girls can socialize, browse the web, work on projects, whatever they like, until we get kicked out.",
+      "sessionType": {
+        "name": "Free Time",
+        "color": "#cb4b16"
+      }
     }]
   }, {
     "date": "Wednesday, June 15",
@@ -137,6 +335,79 @@
       "sessionType": {
         "name": "Break",
         "color": "#859900"
+      }
+    }, {
+      "startTime": "9:30",
+      "endTime": "10:00",
+      "title": "Student Picks",
+      "description": "Students will share neat things they know about or are interested in with the class",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "title": "Volunteer Lesson/Discussion",
+      "description": "Topics chosen by one of the volunteer instructors",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "title": "Binary",
+      "description": "Learn what binary is and how to read and write it",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "title": "Coding: Where we are today and how we got here",
+      "description": "Slide Deck",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "11:30",
+      "endTime": "12:00",
+      "title": "Code Together Activity",
+      "description": "",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "12:00",
+      "endTime": "1:00 ",
+      "title": "Lunch",
+      "description": "Lunch at Eola",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "1:00",
+      "endTime": "2:30",
+      "title": "Headshots Group 1 / Independent Coding / Class Projects",
+      "description": "Each girl will get a headshot for professional profiles, Codesters Lessons 9 & 10, Class Projects(1 - 2 pm large multitouch video wall)"
+    }, {
+      "startTime": "2:30",
+      "endTime": "4:30",
+      "title": "Headshots Group 2 / Independent Coding / Class Projects",
+      "description": "Each girl will get a headshot for professional profiles, Codesters Lessons 9 & 10, Class Projects "
+    }, {
+      "startTime": "4:30",
+      "endTime": "5:00",
+      "title": "Closing",
+      "description": "Expectations for Tomorrow & Closing Icebreaker",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
       }
     }]
   }, {
