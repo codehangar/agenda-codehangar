@@ -1,17 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-
-body{
+body {
   /*background-color:#CDDC39;*/
 }
+
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Non-prefixed version, currently
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
                                   not supported by any browser */
 }
+
 .agenda {
   margin: 2em auto;
   font-family: 'Roboto', sans-serif;
@@ -27,36 +34,65 @@ body{
     color: #999;
     margin-top: 0;
   }
-  .session-key{
-    padding-bottom:1em;
+  .session-key {
+    padding-bottom: 1em;
     /*font-size: 75%;*/
   }
-  .session-key-label{
+  .session-key-label {
     cursor: pointer;
   }
-  .session-key-label.inactive{
-    opacity:.5;
+  .session-key-label.inactive {
+    opacity: .5;
   }
   .agenda-time-slot {
-    border-radius:4px;
+    border-radius: 4px;
     padding: .5em;
     margin-bottom: .5em;
     border: 1px solid;
     border-left: 20px solid;
+    white-space: normal;
   }
   .agenda-date {
     font-size: 1.25em;
     font-weight: bold;
   }
-  .agenda-day-description{
+  .agenda-day-description {
     font-weight: 800;
     color: #999;
     margin-top: 0;
-    margin-bottom:.25em;
+    margin-bottom: .25em;
   }
-  .session-title{
+  .session-title {
     font-weight: bold;
     padding: .4em 0 0 0;
     font-size: 1.1em;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .agenda-plan {
+    white-space: nowrap;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    border: 1px solid #ddd;
+    padding: 10px 5px;
+    background: #ddd;
+  }
+  .agenda-day {
+    width: 400px;
+    margin: 0 5px;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
   }
 }
