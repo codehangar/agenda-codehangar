@@ -201,7 +201,7 @@
       "startTime": "9:30",
       "endTime": "9:50",
       "title": "Class Icebreaker",
-      "description": "Answer 1: What are your life goals? What do you want to learn about? Mac or PC?",
+      "description": "Answer 1: What are your life goals? What do you want to learn at Girls Who Code camp? Mac or PC (or other)?",
       "sessionType": {
         "name": "Group Activity",
         "color": "#268bd2"
@@ -245,7 +245,7 @@
     }, {
       "startTime": "11:40",
       "endTime": "12:00",
-      "title": "Volunteer Lesson/Discussion",
+      "title": "Volunteer Lesson/Discussion (Notable Women Who Code)",
       "description": "Topics chosen by one of the volunteer instructors",
       "sessionType": {
         "name": "Lecture",
@@ -255,7 +255,7 @@
       "startTime": "12:00",
       "endTime": "1:00 ",
       "title": "Lunch",
-      "description": "Lunch at the History Museum",
+      "description": "",
       "sessionType": {
         "name": "Break",
         "color": "#859900"
@@ -263,15 +263,6 @@
     }, {
       "startTime": "1:00",
       "endTime": "1:10",
-      "title": "Notable Women Who Code",
-      "description": "Slide Deck",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "1:10",
-      "endTime": "1:30",
       "title": "Computer Wizardry, Timesaving Tips & Tricks",
       "description": "Side Deck",
       "sessionType": {
@@ -279,8 +270,8 @@
         "color": "#b58900"
       }
     }, {
-      "startTime": "1:30",
-      "endTime": "2:45",
+      "startTime": "1:10",
+      "endTime": "2:10",
       "title": "Independent Coding",
       "description": "Codesters Lessons 7 & 8",
       "sessionType": {
@@ -288,13 +279,22 @@
         "color": "#6c71c4"
       }
     }, {
-      "startTime": "2:45",
-      "endTime": "3:00",
+      "startTime": "2:10",
+      "endTime": "2:20",
       "title": "BREAK",
       "description": "",
       "sessionType": {
         "name": "Break",
         "color": "#859900"
+      }
+    }, {
+      "startTime": "2:20",
+      "endTime": "3:00",
+      "title": "Class Project",
+      "description": "Work Time",
+      "sessionType": {
+        "name": "Class Project",
+        "color": "#dc322f"
       }
     }, {
       "startTime": "3:00",
@@ -339,8 +339,8 @@
     }, {
       "startTime": "10:00",
       "endTime": "10:30",
-      "title": "Volunteer Lesson/Discussion",
-      "description": "Topics chosen by one of the volunteer instructors",
+      "title": "Guest Speaker",
+      "description": "TBD",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -376,21 +376,38 @@
       "startTime": "12:00",
       "endTime": "1:00 ",
       "title": "Lunch",
-      "description": "Lunch at Eola",
+      "description": "",
       "sessionType": {
         "name": "Break",
         "color": "#859900"
       }
     }, {
       "startTime": "1:00",
+      "endTime": "1:15",
+      "title": "Guest Speaker",
+      "description": "TBD",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "1:15",
       "endTime": "2:30",
-      "title": "Headshots Group 1 / Independent Coding / Class Projects",
-      "description": "Each girl will get a headshot for professional profiles, Codesters Lessons 9 & 10, Class Projects(1 - 2 pm large multitouch video wall)"
+      "title": "Independent Coding",
+      "description": "Codesters Lessons 9 & 10",
+      "sessionType": {
+        "name": "Independent Coding",
+        "color": "#6c71c4"
+      }
     }, {
       "startTime": "2:30",
       "endTime": "4:30",
-      "title": "Headshots Group 2 / Independent Coding / Class Projects",
-      "description": "Each girl will get a headshot for professional profiles, Codesters Lessons 9 & 10, Class Projects "
+      "title": "Class Project",
+      "description": "Work Time",
+      "sessionType": {
+        "name": "Class Project",
+        "color": "#dc322f"
+      }
     }, {
       "startTime": "4:30",
       "endTime": "5:00",
@@ -413,6 +430,132 @@
         "name": "Break",
         "color": "#859900"
       }
+    }, {
+      "startTime": "9:30",
+      "endTime": "10:00",
+      "title": "Class Icebreaker",
+      "description": "",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "10:00",
+      "endTime": "10:15",
+      "title": "Today's Most Popular Programming Languages",
+      "description": "Recognize them by name and know what they are used for.",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "10:15",
+      "endTime": "10:30",
+      "title": "Guest Speaker(s)",
+      "description": "TBD",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "10:30",
+      "endTime": "10:40",
+      "title": "BREAK",
+      "description": "",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "10:40",
+      "endTime": "11:40",
+      "title": "Independent Coding",
+      "description": "Codesters Lessons",
+      "sessionType": {
+        "name": "Independent Coding",
+        "color": "#6c71c4"
+      }
+    }, {
+      "startTime": "11:40",
+      "endTime": "12:00",
+      "title": "Frontend vs Backend",
+      "description": "What are they and whats the difference?",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "12:00",
+      "endTime": "1:00",
+      "title": "Lunch",
+      "description": "",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "1:00",
+      "endTime": "2:00",
+      "title": "Independent Coding",
+      "description": "Codesters lessons",
+      "sessionType": {
+        "name": "Independent Coding",
+        "color": "#6c71c4"
+      }
+    }, {
+      "startTime": "2:00",
+      "endTime": "2:30",
+      "title": "Guest Speaker(s)",
+      "description": "TBD",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "2:30",
+      "endTime": "2:40",
+      "title": "BREAK",
+      "description": "",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "2:40",
+      "endTime": "3:00",
+      "title": "Browser Hacking",
+      "description": "Learn how to use Chrome developer tools to inspect and modify code from the websites you visit.",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "3:00",
+      "endTime": "3:30",
+      "title": "What can you do with an API?",
+      "description": "Learn what a API is and how can you use it?",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "3:30",
+      "endTime": "4:30",
+      "title": "Class Project",
+      "description": "Work Time",
+      "sessionType": {
+        "name": "Class Project",
+        "color": "#dc322f"
+      }
+    }, {
+      "startTime": "4:30",
+      "endTime": "5:00",
+      "title": "Closing",
+      "description": "Expectations for Tomorrow & Closing Icebreaker",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
     }]
   }, {
     "date": "Friday, June 17",
@@ -425,6 +568,105 @@
       "sessionType": {
         "name": "Break",
         "color": "#859900"
+      }
+    }, {
+      "startTime": "9:30",
+      "endTime": "9:50",
+      "title": "Class Icebreaker",
+      "description": "",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
+      }
+    }, {
+      "startTime": "9:50",
+      "endTime": "11:00",
+      "title": "Independent Coding",
+      "description": "Codesters Lessons",
+      "sessionType": {
+        "name": "Independent Coding",
+        "color": "#6c71c4"
+      }
+    }, {
+      "startTime": "11:00",
+      "endTime": "11:15",
+      "title": "Online Learning Tools",
+      "description": "Learn more about the resources available online to help you code.",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "11:15",
+      "endTime": "12:00",
+      "title": "Open Source Projects",
+      "description": "Discover open source projects and create your Github profile.",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "12:00",
+      "endTime": "1:00",
+      "title": "Lunch",
+      "description": "",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "1:00",
+      "endTime": "3:00",
+      "title": "Class Project",
+      "description": "Work Time",
+      "sessionType": {
+        "name": "Class Project",
+        "color": "#dc322f"
+      }
+    }, {
+      "startTime": "3:00",
+      "endTime": "3:10",
+      "title": "BREAK",
+      "description": "",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "3:10",
+      "endTime": "3:30",
+      "title": "TBD",
+      "description": "",
+      "sessionType": {
+        "name": "",
+        "color": ""
+      }
+    }, {
+      "startTime": "3:30",
+      "endTime": "3:40",
+      "title": "Guest Speaker",
+      "description": "Jen Odess",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "3:40",
+      "endTime": "4:00",
+      "title": "Student Survey",
+      "description": "Girls Who Code pre-course research survey.",
+      "sessionType": {
+        "name": "Test/Survey",
+        "color": "#d33682"
+      }
+    }, {
+      "startTime": "4:00",
+      "endTime": "5:00",
+      "title": "Graduation Ceremony",
+      "description": "Parents are invited to attend Class Project Demos and Graduation.",
+      "sessionType": {
+        "name": "Group Activity",
+        "color": "#268bd2"
       }
     }]
   }]
