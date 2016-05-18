@@ -123,48 +123,30 @@
       }
     }, {
       "startTime": "1:00",
-      "endTime": "1:30",
-      "title": "Codesters Intro",
-      "description": "Codesters Lesson 1",
+      "endTime": "2:30",
+      "title": "Independent Coding",
+      "description": "Codesters Lesson 1 (together), 2 & 3",
       "sessionType": {
-        "name": "Group Activity",
+        "name": "Independent Coding",
         "color": "#268bd2"
       }
     }, {
-      "startTime": "1:30",
-      "endTime": "2:30",
-      "title": "Independent Coding",
-      "description": "Codesters Lessons 2 - 4",
-      "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
-      }
-    }, {
       "startTime": "2:30",
-      "endTime": "3:00",
-      "title": "Problem Solving",
-      "description": "How to break down problems and find solutions (yellow wall 2-3pm)",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "3:00",
-      "endTime": "3:30",
-      "title": "Class Project Intro & Idea Generation",
-      "description": "How to break down problems and find solutions (yellow wall 2-3pm)",
-      "sessionType": {
-        "name": "Class Project",
-        "color": "#dc322f"
-      }
-    }, {
-      "startTime": "3:30",
-      "endTime": "3:40",
+      "endTime": "2:40",
       "title": "BREAK",
       "description": "",
       "sessionType": {
         "name": "Break",
         "color": "#859900"
+      }
+    }, {
+      "startTime": "2:40",
+      "endTime": "3:40",
+      "title": "Class Project Intro & Idea Generation",
+      "description": "How to break down problems and find solutions (yellow wall 2-3pm)",
+      "sessionType": {
+        "name": "Class Project",
+        "color": "#dc322f"
       }
     }, {
       "startTime": "3:40",
@@ -177,7 +159,16 @@
       }
     }, {
       "startTime": "4:00",
-      "endTime": "4:30",
+      "endTime": "4:20",
+      "title": "Problem Solving",
+      "description": "How to break down problems and find solutions (yellow wall 2-3pm)",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "4:20",
+      "endTime": "4:40",
       "title": "Class Closing",
       "description": "Expectations for tomorrow & Closing Icebreaker",
       "sessionType": {
@@ -185,7 +176,7 @@
         "color": "#268bd2"
       }
     }, {
-      "startTime": "4:30",
+      "startTime": "4:40",
       "endTime": "5:00",
       "title": "Free Time",
       "description": "Girls can socialize, browse the web, work on projects, whatever they like, until we get kicked out.",
