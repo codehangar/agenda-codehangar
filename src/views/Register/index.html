@@ -1,0 +1,67 @@
+<div ng-include="'views/partials/plain_header.html'"></div>
+<div class="container">
+  <div class="row">
+
+    <!-- Register -->
+    <div class="col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-3" style="margin-top:60px;">
+      <h1 class="text-center">Ahhhgenda.</h1>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h3 class="text-center">Sign Up</h3>
+          <div class="alert alert-danger text-center" ng-if="loginError">Oops! An error occurred. An account may already exist for that email address.</div>
+          <div class="alert alert-danger text-center" ng-if="loginValidationError">Please fix the validation errors below.</div>
+          <div class="alert alert-success text-center" ng-if="loginSuccess">Success!</div>
+
+          <form class="form" name="registerForm">
+
+            <!-- Email -->
+            <div class="form-group" bs-form-class="registerForm.email">
+              <label for="email">Email</label>
+              <input name="email" class="form-control" type="email" ng-model="creds.email" placeholder="Email" valid-email required/>
+              <div ng-messages="registerForm.email.$error" ng-show="registerForm.email.$dirty">
+                <span ng-messages-include="views/partials/messages.html"></span>
+              </div>
+            </div>
+
+            <!-- Password -->
+            <div class="form-group" bs-form-class="registerForm.password">
+              <label for="password">Password</label>
+              <input name="password" class="form-control" type="password" ng-model="creds.password" placeholder="Password" ng-minlength="8" required/>
+              <div ng-messages="registerForm.password.$error" ng-show="registerForm.password.$dirty">
+                <span ng-messages-include="views/partials/messages.html"></span>
+              </div>
+            </div>
+
+            <!-- Confirm Password -->
+            <!-- <div class="form-group" bs-form-class="registerForm.confirmPassword">
+              <input name="confirmPassword" class="form-control input-lg" type="password" ng-model="creds.confirmPassword" placeholder="Confirm Password" compare-to="creds.password" required/>
+              <div ng-messages="registerForm.confirmPassword.$error" ng-show="registerForm.confirmPassword.$dirty">
+                <div ng-messages-include="views/partials/messages.html"></div>
+              </div>
+            </div> -->
+
+            <!-- Submit -->
+            <button type="submit" class="btn btn-primary warning-theme btn-block btn-lg" ng-click="signUp(creds)" ng-disabled="registerForm.$invalid">Sign Up</button>
+
+          </form>
+          <br>
+          <span>Already A User?</span>
+          <a ui-sref="login">Login Here</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--End Row-->
+</div>
+<!--End container-->
+
+<!-- Overlay -->
+<div class="overlay" ng-if="loginSuccess">
+  <div class="text-center" style="margin-top:15%">
+    <p class="lead"><strong><i class="fa fa-spinner fa-spin"></i> Connecting to Google...</strong></p>
+    <p class="lead"><strong>Select the account you would like to connect.</strong></p>
+  </div>
+</div>
+
+<div ng-include="'views/partials/footer.html'"></div>

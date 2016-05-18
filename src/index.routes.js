@@ -21,6 +21,26 @@
           }
         }
       })
+      .state('login', {
+        url: '/login',
+        views: {
+          'content': {
+            templateUrl: 'views/Login/index.html',
+            controller: 'LoginCtrl',
+            controllerAs: 'LoginCtrl'
+          }
+        }
+      })
+      .state('register', {
+        url: '/register',
+        views: {
+          'content': {
+            templateUrl: 'views/Register/index.html',
+            controller: 'RegisterCtrl',
+            controllerAs: 'RegisterCtrl'
+          }
+        }
+      })
       .state('gwc-2016', {
         url: '/gwc-2016',
         views: {

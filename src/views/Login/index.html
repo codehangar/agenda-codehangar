@@ -1,0 +1,61 @@
+
+<div class="container">
+  <div class="row">
+
+    <!-- Login -->
+
+
+    <div class="col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-3" style="margin-top:60px;">
+      <h1 class="text-center">Ahhhgenda.</h1>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h3 class="text-center">Login</h3>
+          <!-- VALIDATION MESSAGES -->
+          <div class="alert alert-danger text-center" ng-if="loginError">Your email/password combination is invalid.</div>
+          <div class="alert alert-danger text-center" ng-if="loginValidationError">Please fix the validation errors below.</div>
+          <div class="alert alert-success text-center" ng-if="loginSuccess">Success!</div>
+
+          <form class="form" name="loginForm">
+
+            <!-- Email -->
+            <div class="form-group" bs-form-class="loginForm.email">
+              <label class="control-label" for="email">Email</label>
+              <input class="form-control" name="email" type="email" ng-model="creds.email" placeholder="Email" valid-email required/>
+              <div ng-messages="loginForm.email.$error" ng-show="loginForm.email.$dirty">
+                <span ng-messages-include="views/partials/messages.html"></span>
+              </div>
+            </div>
+
+            <!-- Password -->
+            <div class="form-group" bs-form-class="loginForm.password">
+              <label for="password">Password</label>
+              <input class="form-control" name="password" type="password" ng-model="creds.password" placeholder="Password" ng-minlength="8" required/>
+              <div ng-messages="loginForm.password.$error" ng-show="loginForm.password.$dirty">
+                <span ng-messages-include="views/partials/messages.html"></span>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn btn-primary btn-block btn-lg" ng-click="login(creds)" ng-disabled="loginForm.$invalid">Login</button>
+
+          </form>
+          <br>
+          <span class="text-center">
+            <span>New User?</span>
+            <a ui-sref="register">Sign Up Here</a>
+          </span>
+          <br>
+          <!-- <span class="text-center">
+            <span>Forgot Password?</span>
+            <a ui-sref="forgot">Reset Here</a>
+          </span> -->
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--End Row-->
+</div>
+<!--End container-->
+
