@@ -34,3 +34,6 @@ require('./views/Agenda/index.js')
 require('./views/Login/index.js')
 require('./views/Register/index.js')
 require('./views/Agenda/sessionFilter.js')
+
+//JS SERVICES
+require('./services/auth.service.js')
