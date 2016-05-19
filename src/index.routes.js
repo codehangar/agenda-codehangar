@@ -31,6 +31,16 @@
           }
         }
       })
+      .state('admin', {
+        url: '/admin',
+        views: {
+          'content': {
+            templateUrl: 'views/Admin/index.html',
+            controller: 'AdminCtrl',
+            controllerAs: 'AdminCtrl'
+          }
+        }
+      })
       .state('register', {
         url: '/register',
         views: {
