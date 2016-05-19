@@ -6,7 +6,7 @@
 
       this.login = function(creds){
         return $http
-        .post('/login', creds)
+        .post('http://localhost:9999/api/v1/auth/login', creds)
         .then(function (res) {
           // Session.create(res.data.id, res.data.user.id,
           //                res.data.user.role);
@@ -62,7 +62,7 @@
       //   return bill;
       // }
       this.hello = function(){
-        console.log('hello')
+        console.log('hello AuthSvc')
       }
 
       return this;

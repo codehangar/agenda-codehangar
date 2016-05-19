@@ -37,3 +37,6 @@ require('./views/Agenda/sessionFilter.js')
 
 //JS SERVICES
 require('./services/auth.service.js')
+
+//JS CONSTANTS
+require('./constants/auth.constant.js')
