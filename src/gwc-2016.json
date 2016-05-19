@@ -31,7 +31,7 @@
   "plan": [{
     "date": "Monday, June 13",
     "description": "Summer Camp Day 1 - Intro & Setup",
-    "alert": "Notice: Girls will have professional headshots taken in the Melrose photo studio between 1:30-2:30pm :D",
+    "alert": "Dont Forget: Girls will have professional headshots taken in the Melrose photo studio between 1:30-2:30pm :D",
     "sessions": [{
       "startTime": "9:00",
       "endTime": "9:30",
@@ -506,8 +506,8 @@
     }, {
       "startTime": "2:00",
       "endTime": "2:30",
-      "title": "Guest Speaker(s)",
-      "description": "TBD",
+      "title": "Guest Speaker, Jaime Joyce",
+      "description": "",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
