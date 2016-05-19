@@ -31,6 +31,7 @@
   "plan": [{
     "date": "Monday, June 13",
     "description": "Summer Camp Day 1 - Intro & Setup",
+    "alert": "Notice: Girls will have professional headshots taken in the Melrose photo studio between 1:30-2:30pm :D",
     "sessions": [{
       "startTime": "9:00",
       "endTime": "9:30",
