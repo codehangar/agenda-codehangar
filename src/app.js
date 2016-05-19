@@ -26,6 +26,7 @@ require('./index.js')
 require('./index.routes.js')
 
 // JS COMPONENTS
+require('./components/Application/index.js');
 require('./components/Footer/Footer.js');
 
 //JS VIEW CONTROLLERS
