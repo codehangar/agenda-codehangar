@@ -27,12 +27,14 @@ body {
     font-size: 2em;
     font-weight: 800;
     color: #000;
+    text-transform: uppercase;
   }
   .agenda-subtitle {
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: 800;
     color: #999;
     margin-top: 0;
+    margin-bottom:1.5em;
   }
   .session-key {
     padding-bottom: 1em;
@@ -46,26 +48,46 @@ body {
   }
   .agenda-time-slot {
     border-radius: 4px;
-    padding: .5em;
+    padding: 1em;
     margin-bottom: .5em;
     border: 1px solid;
     border-left: 20px solid;
     white-space: normal;
   }
+  .session-type-label{
+    font-size: .75em;
+    color: #ccc;
+    text-transform: uppercase;
+    position: relative;
+    top: 7px;
+  }
   .agenda-date {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: bold;
+    text-align: center;
+    margin-top:.5em;
+    text-transform: uppercase;
   }
   .agenda-day-description {
     font-weight: 800;
     color: #999;
     margin-top: 0;
-    margin-bottom: .25em;
+    margin-bottom: 1em;
+    text-align: center;
   }
   .session-title {
     font-weight: bold;
     padding: .4em 0 0 0;
     font-size: 1.1em;
+    text-transform: uppercase;
+  }
+  .powered-by{
+    color: #ccc;
+    font-weight: lighter;
+    font-size: 12px;
+    a{
+      color:#fff;
+    }
   }
 }
 

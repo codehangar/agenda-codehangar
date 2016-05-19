@@ -1,6 +1,6 @@
 {
-  "title": "Girls Who Code Orlando 2016, Session A",
-  "subtitle": "Camp 1 Class Agenda",
+  "title": "Girls Who Code Orlando 2016",
+  "subtitle": "Summer Camp 1 Class Agenda",
   "startDate": "Monday, June 13",
   "endDate": "Friday, June 17",
   "address": "Melrose Center at the Orlando Public Library, 101 E. Central Blvd. Orlando, FL 32801",
@@ -143,7 +143,7 @@
       "startTime": "2:40",
       "endTime": "3:40",
       "title": "Class Project Intro & Idea Generation",
-      "description": "How to break down problems and find solutions (yellow wall 2-3pm)",
+      "description": "",
       "sessionType": {
         "name": "Class Project",
         "color": "#dc322f"
@@ -161,7 +161,7 @@
       "startTime": "4:00",
       "endTime": "4:20",
       "title": "Problem Solving",
-      "description": "How to break down problems and find solutions (yellow wall 2-3pm)",
+      "description": "How to break down problems and find solutions",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
