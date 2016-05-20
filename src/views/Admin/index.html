@@ -1,17 +1,28 @@
 
-<div class="container">
+<div class="container admin">
+  
+  <!-- Admin Header -->
   <div class="row">
-
-    <!-- Login -->
-
-
-    <div class="col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-3" style="margin-top:60px;">
+    <div class="col-xs-12 admin-header">
       <h1 class="text-center">Ahhhgenda. Admin</h1>
       <p class="text-center" ng-if="currentUser">Logged in as {{currentUser.email}}</p>
     </div>
-
   </div>
-  <!--End Row-->
+
+  <!-- Agenda List EMPTY STATE-->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="panel panel-default empty-state">
+        <div class="panel-body">
+          <h3 class="text-center empty-state-title">You don't have any agendas.</h3>
+          <p class="text-center">
+            <a ui-sref="create-agenda" class="btn btn-primary"><i class="fa fa-plus"></i> Create a new Agenda</a>  
+          </p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
   
 
 </div>

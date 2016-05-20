@@ -104,6 +104,18 @@ $title-dark: #56482D;
   }
 }
 
+.admin{
+  .admin-header{
+    margin-bottom:1em;
+  }
+  .empty-state{
+    padding:3em;
+    .empty-state-title{
+      margin-bottom:1em;
+    }
+  }
+}
+
 @media (min-width: $screen-sm-min) {
   .agenda{
         padding: 10em 0;
