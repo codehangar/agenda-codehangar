@@ -36,7 +36,7 @@
       "startTime": "9:00",
       "endTime": "9:30",
       "title": "Welcome Breakfast",
-      "description": "Welcome everyone to Girls Who Code. Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions.",
+      "description": "Welcome everyone to Girls Who Code! Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions.",
       "sessionType": {
         "name": "Break",
         "color": "#859900"
@@ -106,12 +106,21 @@
       }
     }, {
       "startTime": "11:15",
-      "endTime": "12:00",
+      "endTime": "11:30",
       "title": "Intro to Programming",
-      "description": "Getting Started. Code Together.",
+      "description": "Getting Started.",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
+      }
+    }, {
+      "startTime": "11:30",
+      "endTime": "12:00",
+      "title": "Codesters Intro",
+      "description": "Codesters lesson 1",
+      "sessionType": {
+        "name": "Independent Coding",
+        "color": "#6c71c4"
       }
     }, {
       "startTime": "12:00",
@@ -126,7 +135,7 @@
       "startTime": "1:00",
       "endTime": "2:30",
       "title": "Independent Coding",
-      "description": "Codesters Lesson 1 (together), 2 & 3",
+      "description": "Codesters Lessons",
       "sessionType": {
         "name": "Independent Coding",
         "color": "#6c71c4"
@@ -152,8 +161,8 @@
     }, {
       "startTime": "3:40",
       "endTime": "4:00",
-      "title": "Melrose Tour",
-      "description": "Show the students the amazing technical resources available to them at the library",
+      "title": "Melrose Center Tour",
+      "description": "Library staff how the students the amazing technical resources available to them at the Melrose Center.",
       "sessionType": {
         "name": "Group Activity",
         "color": "#268bd2"
@@ -211,7 +220,7 @@
       "startTime": "9:50",
       "endTime": "10:00",
       "title": "What is software?",
-      "description": "Slide Deck: https://drive.google.com/open?id=1lxqAwgxhFwalQIRv-JmizXImePuD-5RilyXG0benfJI",
+      "description": "What is software really made of?",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -219,11 +228,11 @@
     }, {
       "startTime": "10:00",
       "endTime": "10:30",
-      "title": "Code Together Activity",
-      "description": "",
+      "title": "Independent Coding",
+      "description": "Codesters lessons",
       "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
+        "name": "Independent Coding",
+        "color": "#6c71c4"
       }
     }, {
       "startTime": "10:30",
@@ -238,7 +247,7 @@
       "startTime": "10:40",
       "endTime": "11:40",
       "title": "Independent Coding",
-      "description": "Codesters lessons 5 & 6",
+      "description": "Codesters lessons",
       "sessionType": {
         "name": "Independent Coding",
         "color": "#6c71c4"
@@ -246,8 +255,8 @@
     }, {
       "startTime": "11:40",
       "endTime": "12:00",
-      "title": "Volunteer Lesson/Discussion (Notable Women Who Code)",
-      "description": "Topics chosen by one of the volunteer instructors",
+      "title": "Women Who Code",
+      "description": "Who are some of the most influential female coders throughout history?",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -309,11 +318,11 @@
     }, {
       "startTime": "4:30",
       "endTime": "5:00",
-      "title": "Free Time, Expectations for Tomorrow",
-      "description": "Girls can socialize, browse the web, work on projects, whatever they like, until we get kicked out.",
+      "title": "Class Project",
+      "description": "Work Time",
       "sessionType": {
-        "name": "Free Time",
-        "color": "#cb4b16"
+        "name": "Class Project",
+        "color": "#dc322f"
       }
     }]
   }, {
@@ -332,7 +341,7 @@
       "startTime": "9:30",
       "endTime": "10:00",
       "title": "Student Picks",
-      "description": "Students will share neat things they know about or are interested in with the class",
+      "description": "Students share neat things they know about or are interested in with the class",
       "sessionType": {
         "name": "Group Activity",
         "color": "#268bd2"
@@ -367,11 +376,11 @@
     }, {
       "startTime": "11:30",
       "endTime": "12:00",
-      "title": "Code Together Activity",
-      "description": "",
+      "title": "Independent Coding",
+      "description": "Codesters Lessons",
       "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
+        "name": "Independent Coding",
+        "color": "#6c71c4"
       }
     }, {
       "startTime": "12:00",
@@ -395,7 +404,7 @@
       "startTime": "1:15",
       "endTime": "2:30",
       "title": "Independent Coding",
-      "description": "Codesters Lessons 9 & 10",
+      "description": "Codesters Lessons",
       "sessionType": {
         "name": "Independent Coding",
         "color": "#6c71c4"
@@ -506,8 +515,8 @@
     }, {
       "startTime": "2:00",
       "endTime": "2:30",
-      "title": "Guest Speaker, Jaime Joyce",
-      "description": "",
+      "title": "Chasing Down, Breaking Down, Building Up, Then Breaking Through",
+      "description": "Jaime Joyce brings us a story about how the wisdom and experience of failure and fumbles provide the fertile ground from which to grow to be a stronger, more effective, and more resilient leader.",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -591,17 +600,26 @@
     }, {
       "startTime": "11:00",
       "endTime": "11:15",
-      "title": "Online Learning Tools",
-      "description": "Learn more about the resources available online to help you code.",
+      "title": "Guest Speaker, Erin Denton on Open Source Projects",
+      "description": "Erin Denton is a freelance graphic designer and co-captain of Code for Orlando, a community organization that works to make Orlando an Open Data City.",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
       }
     }, {
       "startTime": "11:15",
-      "endTime": "12:00",
-      "title": "Open Source Projects",
+      "endTime": "11:45",
+      "title": "Open Source & Github Continued",
       "description": "Discover open source projects and create your Github profile.",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
+      }
+    }, {
+      "startTime": "11:45",
+      "endTime": "12:00",
+      "title": "Online Learning Tools",
+      "description": "Learn more about the resources available online to help you code.",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -655,7 +673,7 @@
       "startTime": "3:40",
       "endTime": "4:00",
       "title": "Student Survey",
-      "description": "Girls Who Code pre-course research survey.",
+      "description": "Girls Who Code post-course research survey.",
       "sessionType": {
         "name": "Test/Survey",
         "color": "#d33682"
@@ -670,5 +688,77 @@
         "color": "#268bd2"
       }
     }]
-  }]
+  }],
+  "people":[{
+    "name":"Cassandra Wilcox",
+    "role":"Lead Instructor",
+    "bio":"Fullstack Javascript developer, cofounder at Code Hangar, Inc.",
+    "image":"http://codehangar.io/content/images/2015/10/cass.jpg"
+  }, {
+    "name":"Kaytee Cannon",
+    "role":"Volunteer",
+    "bio":"iOS Developer and creator of Persist A List, available in the App Store",
+    "image":""
+  }, {
+    "name":"Angelica Yarde",
+    "role":"Volunteer",
+    "bio":"UI/UX/Print Designer & Front-End Developer",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/046/27d/35e6377.jpg"
+  }, {
+    "name":"Audrey Mohlenhoff",
+    "role":"Volunteer",
+    "bio":"Electrical Engineer",
+    "image":"https://scontent.cdninstagram.com/t51.2885-19/11023211_1414034675574470_390674642_a.jpg"
+  }, {
+    "name":"Stacey Baldini",
+    "role":"Volunteer",
+    "bio":"Designer / Instructor @ Skillcrush",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJMAAAAJDkwYTVkNGE0LTRhYTItNGM2OC05MDdjLTk2YzVlZTgyZmU3ZA.jpg"
+  }, {
+    "name":"Ian Grail",
+    "role":"Volunteer",
+    "bio":"Fullstack Javascript developer, CEO, Co-Founder at Code Hangar, Inc.",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0a9/341/255e11c.jpg"
+  }, {
+    "name":"Renee Blunt",
+    "role":"Volunteer",
+    "bio":"Senior Engineer / Full Stack at Purple Rock Scissors",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALiAAAAJDkwMTk5OWQwLTU3MjUtNDY0My04YmMxLTBmY2I2Yzg2MTg0Zg.jpg"
+  }, {
+    "name":"Laura Seletos",
+    "role":"Volunteer",
+    "bio":"Technical Account Manager at Qualys",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/000/235/1fa/22043ed.jpg"
+  }, {
+    "name":"Holly Akers",
+    "role":"Volunteer/Speaker",
+    "bio":"Tinkerer, Part Time HomeSchool Teacher / Computer Science Teacher",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJnAAAAJGE5NzhkYjM2LTM5MDktNGE4NS1iNDRjLWEwZDdhNDM3NzUwNg.jpg"
+  }, {
+    "name":"Erin (Fonzi) Denton",
+    "role":"Volunteer/Speaker",
+    "bio":"Design and Illustration Creative, Co-captain at Code for Orlando",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAQxAAAAJGYyYzE2MzE2LThjZmQtNGJkNC1hZjAyLWJlOTM1OTEyOGY1Nw.jpg"
+  }, {
+    "name":"Craig Finch",
+    "role":"Volunteer",
+    "bio":"Principal Consultant at Rootwork InfoTech LLC",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbKAAAAJDJkODA1NDE3LWQwNzUtNDIzMy04YTQyLWMwMzJjZTI0NGU0ZA.jpg"
+  }, {
+    "name":"Natalie Bednarz",
+    "role":"Volunteer",
+    "bio":"Principal Consultant at Rootwork InfoTech LLC",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/000/298/31f/01d1c6e.jpg"
+  }, {
+    "name":"Jaime Joyce",
+    "role":"Speaker",
+    "bio":"Activist, archivist, and artist. She is also the founding president of the Society Library and the informational architect of it's Internet Government, the founder of the Orlando Urban Archives, and a board member of Familab - the Orlando area's original Hackerspace.",
+    "image":"./images/JamieJoyce.jpg"
+  }, {
+    "name":"Jen Odess",
+    "role":"Speaker",
+    "bio":"Manager, Data Science Operations at Appirio",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAk2AAAAJDViMmNlZmYzLTVjMWMtNGJkOC05MGEyLTZjMWExNzNlNzI2Mg.jpg"
+  }
+  ]
 }

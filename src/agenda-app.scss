@@ -64,7 +64,7 @@ $title-dark: #56482D;
     position: relative;
     top: 7px;
   }
-  .agenda-date {
+  .agenda-date, {
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
@@ -101,6 +101,31 @@ $title-dark: #56482D;
   }
   .panel{
     box-shadow: 0px 6px 21px rgba(0,0,0,.5);
+  }
+  .people-panel{
+    h4{
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .person{
+    font-size:70%;
+    border-bottom:1px solid #ccc;
+    padding-top:1em;
+    img{
+      border-radius: 50%;
+      margin-bottom: 1em;
+    }
+    .person-name{
+      font-weight: bold;
+      font-size: 1.25em;
+      color:#B58900;
+    }
+    .person-role{
+      color:#666;
+      text-transform: uppercase;
+    }
   }
 }
 
