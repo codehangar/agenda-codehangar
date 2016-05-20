@@ -3,7 +3,57 @@
 
   angular
     .module('utils.codehangar')
-    .config(routeConfig);
+    .config(function($httpProvider) {
+      $httpProvider.interceptors.push([
+        '$injector',
+        function($injector) {
+          return $injector.get('AuthInterceptor');
+        }
+      ]);
+    })
+    .factory('AuthInterceptor', function($rootScope, $q, AUTH_EVENTS) {
+      return {
+        responseError: function(response) {
+          $rootScope.$broadcast({
+            401: AUTH_EVENTS.notAuthenticated,
+            403: AUTH_EVENTS.notAuthorized,
+            419: AUTH_EVENTS.sessionTimeout,
+            440: AUTH_EVENTS.sessionTimeout
+          }[response.status], response);
+          return $q.reject(response);
+        }
+      };
+    })
+    .config(routeConfig)
+    .run(function($rootScope, AUTH_EVENTS, AuthSvc, $location, Session) {
+      Session.init();
+      $rootScope.$on('$stateChangeStart', function(event, next) {
+        var requiresAuth = next.requiresAuth;
+        console.log('requiresAuth, !AuthSvc.isAuthorized(requiresAuth)', requiresAuth, !AuthSvc.isAuthorized(requiresAuth))
+        if (requiresAuth) {
+          
+          if (!AuthSvc.isAuthenticated()) {
+            event.preventDefault();
+            // user is not allowed
+            $rootScope.$broadcast(AUTH_EVENTS.notAuthenticated);
+            console.log('AUTH_EVENTS.notAuthenticated', AUTH_EVENTS.notAuthenticated)
+              // $location.path("/login");
+          } 
+          // else {
+            // user is not logged in
+            // $rootScope.$broadcast(AUTH_EVENTS.notAuthenticated);
+            // console.log('AUTH_EVENTS.notAuthenticated', AUTH_EVENTS.notAuthenticated)
+            // $rootScope.$apply(function() {
+              // $location.path("/login");
+        //       $rootScope.$evalAsync(function() {
+        //   $location.path('/login');
+        // });
+              // console.log('go to login');
+            // });
+          // }
+        }
+      });
+    });
 
   /** @ngInject */
   function routeConfig($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -29,17 +79,8 @@
             controller: 'LoginCtrl',
             controllerAs: 'LoginCtrl'
           }
-        }
-      })
-      .state('admin', {
-        url: '/admin',
-        views: {
-          'content': {
-            templateUrl: 'views/Admin/index.html',
-            controller: 'AdminCtrl',
-            controllerAs: 'AdminCtrl'
-          }
-        }
+        },
+        requiresAuth: false
       })
       .state('register', {
         url: '/register',
@@ -50,6 +91,17 @@
             controllerAs: 'RegisterCtrl'
           }
         }
+      })
+      .state('admin', {
+        url: '/admin',
+        views: {
+          'content': {
+            templateUrl: 'views/Admin/index.html',
+            controller: 'AdminCtrl',
+            controllerAs: 'AdminCtrl'
+          }
+        },
+        requiresAuth: true
       })
       .state('gwc-2016', {
         url: '/gwc-2016',

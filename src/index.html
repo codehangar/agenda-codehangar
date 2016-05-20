@@ -52,6 +52,8 @@
 
     <div ui-view="content" autoscroll></div>
 
+    <div login-dialog ng-if="!isLoginPage"></div>
+
     <!-- FOR WEBPACK -->
     <script src="bundle.js"></script>
 

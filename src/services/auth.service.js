@@ -2,70 +2,79 @@
   "use strict";
   angular
     .module('utils.codehangar')
-    .factory('AuthSvc', function($http) {
+    .factory('AuthSvc', function($http, Session) {
 
-      this.login = function(creds){
+      var _this = this
+
+      this.login = function(creds) {
         return $http
-        .post('http://localhost:9999/api/v1/auth/login', creds)
-        .then(function (res) {
-          // Session.create(res.data.id, res.data.user.id,
-          //                res.data.user.role);
-          return res.data.user;
-        });
+          .post('http://localhost:9999/api/v1/auth/login', creds)
+          .then(function(res) {
+            console.log('login res', res)
+            Session.create(res.data.token, res.data.user);
+            return res.data.user;
+          });
       }
-      
-      // var BASE_CONFIG = {
-      //   headers: {
-      //     "Content-Type": 'application/vnd.api+json'
-      //   },
-      //   method: 'POST',
-      //   url: '/auth/',
-      //   params: {
-      //     apikey: '932407d3-d4bd-4beb-8cd2-f4356036b6fc',
-      //     legislative_session: 2016,
-      //   }
-      // };
 
-      // this.fetchBillsThisSession = function(params) {
-      //   var requestConfig = angular.merge({}, BASE_CONFIG, {
-      //     params: params
-      //   });
-      //   return $http(requestConfig);
-      // };
+      this.getMe = function() {
+        return $http
+          .get('http://localhost:9999/api/v1/auth/me', {
+            headers: {
+              'x-access-token': Session.userToken
+            }
+          })
+      }
 
-      // this.fetchBillsCustomParams = function(params) {
-      //   var requestConfig = angular.merge({}, BASE_CONFIG, {
-      //     params: params
-      //   });
-      //   return $http(requestConfig)
-      // };
+      this.isAuthenticated = function() {
+        console.log('!!Session.userToken',!!Session.userToken);
+        return !!Session.userToken;
+      };
 
-      // this.fetchBillByID = function(id) {
-      //   id = id.replace('_', '/');
-      //   var requestConfig = angular.merge({}, BASE_CONFIG, {
-      //     url: 'https://www.tabsontallahassee.com/api/' + id
-      //   });
-      //   return $http(requestConfig);
-      // };
+      this.isAuthorized = function() {
+        // if (!angular.isArray(authorizedRoles)) {
+        //   authorizedRoles = [authorizedRoles];
+        // }
+        return ( _this.isAuthenticated() );
+      };
 
-      // this.fetchNext = function(url) {
-      //   var requestConfig = angular.merge({}, BASE_CONFIG, {
-      //     url: url
-      //   });
-      //   return $http(requestConfig);
-      // }
-
-      // this.addCustomBillFields = function(bill) {
-      //   bill.hashIdentifier = '#' + bill.attributes.identifier.replace(/\s/g, '');
-      //   bill.billId = bill.id.replace(/\//g, '_');
-      //   bill.billLink = 'http://www.flvote.org/bills/' + bill.billId;
-      //   return bill;
-      // }
-      this.hello = function(){
+      this.hello = function() {
         console.log('hello AuthSvc')
       }
 
       return this;
 
+    })
+    .service('Session', function() {
+      this.create = function(token, user) {
+        localStorage.setItem('session', JSON.stringify(token));
+        this.userToken = token;
+        this.user = user;
+      };
+      this.destroy = function() {
+        this.userToken = null;
+        this.user = null;
+        localStorage.removeItem('session');
+      };
+      this.init = function(state) {
+        // var deferred = $q.defer();
+        var session = JSON.parse(localStorage.getItem('session'));
+        // return session;
+        this.userToken = session;
+        // if (session) {
+        //   if (state) {
+        //     $timeout(function() {
+        //       $state.go(state);
+        //     });
+        //   } else {
+        //     deferred.resolve(session);
+        //   }
+        // } else {
+        //   $timeout(function() {
+        //     $state.go('login');
+        //   });
+        // }
+        // return deferred.promise;
+      // }
+      };
     });
 })();

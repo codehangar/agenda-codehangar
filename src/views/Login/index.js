@@ -5,17 +5,17 @@
     .module('utils.codehangar')
     .controller('LoginCtrl', LoginCtrl);
 
-  function LoginCtrl($scope, $rootScope, $timeout, $http, $window, $state, AuthSvc, AUTH_EVENTS) {
+  function LoginCtrl($scope, $rootScope, $timeout, $http, $window, $state, $location, AuthSvc, AUTH_EVENTS) {
 
     $scope.login = function(creds) {
 
       AuthSvc.login(creds).then(function (user) {
         console.log('sucess');
         $rootScope.$broadcast(AUTH_EVENTS.loginSuccess);
-        // $scope.setCurrentUser(user);
+        $scope.setCurrentUser(user);
       }, function () {
         console.log('error');
-        // $rootScope.$broadcast(AUTH_EVENTS.loginFailed);
+        $rootScope.$broadcast(AUTH_EVENTS.loginFailed);
       });
       // $scope.loginError = false;
       // $scope.loginSuccess = false;
