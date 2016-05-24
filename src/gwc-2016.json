@@ -63,7 +63,7 @@
       "startTime": "10:00",
       "endTime": "10:20",
       "title": "Course Intro",
-      "description": "What is Computer Science? What is Girls Who Code?",
+      "description": "Introduction to Girls Who Code and Computer Science.",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -107,8 +107,8 @@
     }, {
       "startTime": "11:15",
       "endTime": "11:30",
-      "title": "Intro to Programming",
-      "description": "Getting Started.",
+      "title": "The Coder's Toolbox",
+      "description": "Tools coders need in order to code.",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -211,7 +211,7 @@
       "startTime": "9:30",
       "endTime": "9:50",
       "title": "Class Icebreaker",
-      "description": "Answer 1: What are your life goals? What do you want to learn at Girls Who Code camp? Mac or PC (or other)?",
+      "description": "",
       "sessionType": {
         "name": "Group Activity",
         "color": "#268bd2"
@@ -256,7 +256,7 @@
       "startTime": "11:40",
       "endTime": "12:00",
       "title": "Women Who Code",
-      "description": "Who are some of the most influential female coders throughout history?",
+      "description": "Who are some of the most influential female coders today and from history?",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -274,7 +274,7 @@
       "startTime": "1:00",
       "endTime": "1:10",
       "title": "Computer Wizardry, Timesaving Tips & Tricks",
-      "description": "Side Deck",
+      "description": "",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -283,7 +283,7 @@
       "startTime": "1:10",
       "endTime": "2:10",
       "title": "Independent Coding",
-      "description": "Codesters Lessons 7 & 8",
+      "description": "Codesters Lessons",
       "sessionType": {
         "name": "Independent Coding",
         "color": "#6c71c4"
@@ -368,7 +368,7 @@
       "startTime": "11:00",
       "endTime": "11:30",
       "title": "Coding: Where we are today and how we got here",
-      "description": "Slide Deck",
+      "description": "",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -394,8 +394,8 @@
     }, {
       "startTime": "1:00",
       "endTime": "1:15",
-      "title": "Guest Speaker",
-      "description": "TBD",
+      "title": "P vs NP: One Problem to Rule them All",
+      "description": "Ian Grail talks about the far reaching affects of solving problems with computers.",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -716,7 +716,7 @@
     "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJMAAAAJDkwYTVkNGE0LTRhYTItNGM2OC05MDdjLTk2YzVlZTgyZmU3ZA.jpg"
   }, {
     "name":"Ian Grail",
-    "role":"Volunteer",
+    "role":"Volunteer/Speaker",
     "bio":"Fullstack Javascript developer, CEO, Co-Founder at Code Hangar, Inc.",
     "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0a9/341/255e11c.jpg"
   }, {
