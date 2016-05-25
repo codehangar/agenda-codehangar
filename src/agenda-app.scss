@@ -4,6 +4,47 @@ body {
 }
 
 $title-dark: #56482D;
+.ahhh-container {
+  /*background: $brand-teal;*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9f686+0,f9f686+11,2cd7e0+91 */
+  background: #f9f686;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f9f686 0%, #f9f686 11%, #2cd7e0 91%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f9f686 0%, #f9f686 11%, #2cd7e0 91%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f9f686 0%, #f9f686 11%, #2cd7e0 91%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  .shadow{text-shadow: 0px 1px 2px rgba(0, 0, 0, .7);}
+  color: #fff;
+  .btn-ahhh {
+    text-shadow: none;
+    color: #fff;
+    background: #2cd7e0;
+    border: 3px solid #2cd7e0;
+    padding: 8px 16px;
+    &:hover {
+      background: transparent;
+      color: #fff;
+      border: 3px #fff solid;
+      
+    }
+  }
+}
+
+.btn-ahhh2 {
+    text-shadow: none;
+    color: #fff;
+    background: #2cd7e0;
+    border: 3px solid #2cd7e0;
+    padding: 8px 16px;
+    &:hover {
+      /*background: transparent;*/
+      color: #fff;
+      border: 3px #fff solid;
+      
+    }
+  }
 
 .noselect {
   -webkit-touch-callout: none;
@@ -21,11 +62,28 @@ $title-dark: #56482D;
                                   not supported by any browser */
 }
 
+.edit-header {
+  background: #333;
+  color: #fff;
+  .brand, .user {
+    padding: .5em;
+  }
+  .edit-agenda {
+    padding: .5em;
+    color: #ccc;
+    display: inline-block;
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
 .agenda {
   padding: 2em 0;
   font-family: 'Roboto', sans-serif;
   color: #000;
-  background-size:auto 100% !important;
+  background-size: auto 100% !important;
   .agenda-title {
     font-size: 2em;
     font-weight: 800;
@@ -37,7 +95,7 @@ $title-dark: #56482D;
     font-weight: 800;
     color: #999;
     margin-top: 0;
-    margin-bottom:1.5em;
+    margin-bottom: 1.5em;
   }
   .session-key {
     padding-bottom: 1em;
@@ -57,7 +115,7 @@ $title-dark: #56482D;
     border-left: 20px solid;
     white-space: normal;
   }
-  .session-type-label{
+  .session-type-label {
     font-size: .75em;
     color: #ccc;
     text-transform: uppercase;
@@ -68,7 +126,7 @@ $title-dark: #56482D;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
-    margin-top:.5em;
+    margin-top: .5em;
     text-transform: uppercase;
   }
   .agenda-day-description {
@@ -83,7 +141,7 @@ $title-dark: #56482D;
     margin-top: 0;
     margin-bottom: 1em;
     text-align: center;
-    font-size:.9em;
+    font-size: .9em;
   }
   .session-title {
     font-weight: bold;
@@ -91,59 +149,59 @@ $title-dark: #56482D;
     font-size: 1.1em;
     text-transform: uppercase;
   }
-  .powered-by{
+  .powered-by {
     color: #ccc;
     font-weight: lighter;
     font-size: 12px;
-    a{
-      color:#fff;
+    a {
+      color: #fff;
     }
   }
-  .panel{
-    box-shadow: 0px 6px 21px rgba(0,0,0,.5);
+  .panel {
+    box-shadow: 0px 6px 21px rgba(0, 0, 0, .5);
   }
-  .people-panel{
-    h4{
+  .people-panel {
+    h4 {
       text-transform: uppercase;
       font-weight: bold;
       text-align: center;
     }
   }
-  .person{
-    font-size:70%;
-    border-bottom:1px solid #ccc;
-    padding-top:1em;
-    img{
+  .person {
+    font-size: 70%;
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    img {
       border-radius: 50%;
       margin-bottom: 1em;
     }
-    .person-name{
+    .person-name {
       font-weight: bold;
       font-size: 1.25em;
-      color:#B58900;
+      color: #B58900;
     }
-    .person-role{
-      color:#666;
+    .person-role {
+      color: #666;
       text-transform: uppercase;
     }
   }
 }
 
-.admin{
-  .admin-header{
-    margin-bottom:1em;
+.admin {
+  .admin-header {
+    margin-bottom: 1em;
   }
-  .empty-state{
-    padding:3em;
-    .empty-state-title{
-      margin-bottom:1em;
+  .empty-state {
+    padding: 3em;
+    .empty-state-title {
+      margin-bottom: 1em;
     }
   }
 }
 
 @media (min-width: $screen-sm-min) {
-  .agenda{
-        padding: 10em 0;
+  .agenda {
+    padding: 10em 0;
   }
   /*.agenda-plan {
     white-space: nowrap;

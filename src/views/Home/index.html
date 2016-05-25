@@ -1,27 +1,66 @@
 <!-- HEADER -->
 <div ng-include="'components/Header-Utils/index.html'"></div>
 
-<div class="container">
+<!-- <div class="container">
   <div class="row" style="margin:20px 0 0 0;">
     <div class="col-sm-12">
       <h1 class="text-center">Ahhhgenda</h1>
       <p class="lead text-center">Public agendas. Clean and simple.</p>
     </div>
   </div>
-</div>
-<div class="container-fluid reql-container">
+</div> -->
+<div class="container-fluid ahhh-container">
   <div class="row" style="margin:60px 0;">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 center-text">
-          <!-- <img src="images/reql-icon.png" alt="" style="width:80%;"> -->
-        </div>
-        <div class="col-sm-6">
-          <h2>Ahhhgenda is still in development!</h2>
-          <p class="lead">Thanks for your interest in Ahhhgenda, a clean and simple public agenda builder. We have not released this tool for public use yet, but you can check out a real world example of Ahhhgenda in use now!</p>
-          <a ui-sref="gwc-2016" class="btn btn-primary btn-lg">See an example</a>
+        <!-- <div class="col-sm-6 center-text"> -->
+        <!-- <img src="images/reql-icon.png" alt="" style="width:80%;"> -->
+        <!-- </div> -->
+        <div class="col-sm-12 text-center">
+          <h1 class="shadow">Ahhhgenda</h1>
+          <!-- <h2>is still in development!</h2> -->
+          <p class="lead shadow">Thanks for your interest in Ahhhgenda, a clean and simple public agenda builder. We have not released this tool for public use, but you can encourage us to do so by providing us your email!</p>
+          <!-- <a ui-sref="gwc-2016" class="btn btn-primary btn-lg">See an example</a> -->
+          <form class="form-inline" ng-submit="download(downloadForm)" name="downloadForm" ng-hide="showDownloadSuccess">
+
+            <div class="form-group">
+              <!-- <label for="exampleInputName2">Name</label> -->
+              <input type="text" class="form-control input-lg" type="email" name="email" ng-model="downloadEmail" required="" placeholder="email address">
+              <button type="submit" class="btn btn-ahhh btn-lg" ng-bind="::downloadCTA">I want one</button>
+            </div>
+            <!-- <div ng-messages="downloadForm.$error" ng-show="downloadForm.$dirty">
+              <div ng-message="email">Enter your email</div>
+              <div ng-message="required">Enter your email</div>
+            </div> -->
+            <!-- <div class="col-sm-6"> -->
+              <!-- <input class="form-control input-lg" type="email" name="email" ng-model="downloadEmail" placeholder="email" required="" />
+              <div ng-messages="downloadForm.$error" ng-show="downloadForm.$dirty">
+                <div ng-message="email">Enter your email</div>
+                <div ng-message="required">Enter your email</div>
+              </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6"> -->
+              <!-- <button type="submit" class="btn btn-primary btn-lg btn-block" ng-bind="::downloadCTA"></button> -->
+            <!-- </div> -->
+          </form>
+          <div ng-show="showDownloadSuccess">
+            <p class="alert alert-warning">Thank you! We will email {{downloadEmail}} to let you know when Ahhhgenda is available.</p>
+          </div>
+
         </div>
       </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row" style="margin:20px 0 0 0;">
+    <div class="col-sm-12">
+      <!-- <h1 class="text-center">Ahhhgenda</h1> -->
+      <h2 class="lead text-center">Public agendas. Clean and simple.</h2>
+      <img src="images/ahhh-screen.png" alt="" style="max-width:100%">
+      <p class="text-center" style="margin: 40px;">
+        <a ui-sref="gwc-2016" class="btn btn-ahhh2 btn-lg">See the Girls Who Code Orlando Agenda in action!</a>
+      </p>
     </div>
   </div>
 </div>
