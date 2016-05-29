@@ -698,7 +698,7 @@
     "name":"Kaytee Cannon",
     "role":"Volunteer",
     "bio":"iOS Developer and creator of Persist A List, available in the App Store",
-    "image":""
+    "image":"./images/KayteeCannon.jpg"
   }, {
     "name":"Angelica Yarde",
     "role":"Volunteer",
@@ -708,7 +708,7 @@
     "name":"Audrey Mohlenhoff",
     "role":"Volunteer",
     "bio":"Electrical Engineer",
-    "image":"https://scontent.cdninstagram.com/t51.2885-19/11023211_1414034675574470_390674642_a.jpg"
+    "image":"./images/Audrey.jpg"
   }, {
     "name":"Stacey Baldini",
     "role":"Volunteer",
@@ -729,6 +729,26 @@
     "role":"Volunteer",
     "bio":"Technical Account Manager at Qualys",
     "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/000/235/1fa/22043ed.jpg"
+  }, {
+    "name":"Alessandra Vaughan",
+    "role":"Volunteer",
+    "bio":"Marketing Manager, Digital Strategy & Content Sales at Florida Virtual School",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZjAAAAJGIxMjg1NDFjLTcxZTEtNDA0OS1hZDIzLWFlMTViODYyZmI1Nw.jpg"
+  }, {
+    "name":"Durga Subramanian",
+    "role":"Volunteer",
+    "bio":"Software Developer at RIP-IT Sporting Goods",
+    "image":"https://media.licdn.com/media/p/3/000/0f2/018/3f0343e.jpg"
+  }, {
+    "name":"Erin Butler",
+    "role":"Volunteer",
+    "bio":"Brand Manager / Content Strategist, Purple, Rock, Scissors",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0b0/157/3044bf2.jpg"
+  }, {
+    "name":"Carlota Pearl",
+    "role":"Volunteer",
+    "bio":"",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0b0/157/3044bf2.jpg"
   }, {
     "name":"Holly Akers",
     "role":"Volunteer/Speaker",
