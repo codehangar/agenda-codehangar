@@ -10,7 +10,7 @@
         return $http
           .post('http://localhost:9999/api/v1/auth/login', creds)
           .then(function(res) {
-            console.log('login res', res)
+            // console.log('login res', res)
             Session.create(res.data.token, res.data.user);
             return res.data.user;
           });
@@ -22,11 +22,15 @@
             headers: {
               'x-access-token': Session.userToken
             }
-          })
+          }).then(function(res) {
+            // console.log('get me res', res.data)
+            // Session.create(res.data.token, res.data.user);
+            return res;
+          });
       }
 
       this.isAuthenticated = function() {
-        console.log('!!Session.userToken',!!Session.userToken);
+        // console.log('!!Session.userToken',!!Session.userToken);
         return !!Session.userToken;
       };
 
@@ -36,10 +40,6 @@
         // }
         return ( _this.isAuthenticated() );
       };
-
-      this.hello = function() {
-        console.log('hello AuthSvc')
-      }
 
       return this;
 

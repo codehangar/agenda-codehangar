@@ -8,7 +8,7 @@
   function AdminCtrl($scope, $timeout, $http, $window, $state, AuthSvc) {
 
     $scope.init = function() {
-      AuthSvc.hello();
+      // AuthSvc.hello();
     };
     $scope.init();
   }

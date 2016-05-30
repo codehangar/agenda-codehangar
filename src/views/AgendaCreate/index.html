@@ -1,0 +1,115 @@
+<div class="container admin">
+
+  <!-- Admin Header -->
+  <div class="row">
+    <div class="col-xs-12 admin-header">
+      <h1 class="text-center">Ahhhgenda.</h1>
+      <p class="text-center" ng-if="currentUser">Create New Agenda</p>
+    </div>
+  </div>
+
+  <!-- Agenda List EMPTY STATE-->
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-9">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h3 class="text-center empty-state-title">Step 1/3: Agenda Details</h3>
+          
+          <form ng-submit="submit()">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="form-group">
+                  <label for="agendaTitle">Agenda Title *</label>
+                  <p class="small">This appears in large text at the top of your agenda. Event names work well here.</p>
+                  <input type="text" class="form-control" id="agendaTitle" ng-model="details.title" placeholder="ex. Girls Who Code Orlando 2016">
+                </div>
+                <div class="form-group">
+                  <label for="agendaSubtitle">Agenda Subitle</label>
+                  <p class="small">(Optional) This appears in smaller text just below the agenda title.</p>
+                  <input type="text" class="form-control" id="agendaSubtitle" ng-model="details.subtitle" placeholder="ex. Summer Camp 1 Class Schedule">
+                </div>
+              </div>
+              <!-- </div>
+            <div class="row"> -->
+              <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                  <label for="startDate">Start Date *</label>
+                  <input type="text" class="form-control" id="startDate" ng-model="details.startDate" placeholder="ex. Monday June 13, 2016">
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                  <label for="endDate">End Date *</label>
+                  <input type="text" class="form-control" id="endDate" ng-model="details.endDate" placeholder="ex. Friday, June 17, 2016">
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                  <label for="agendaLocation">Address/Location</label>
+                  <p class="small">Where is the event for this agenda taking place?</p>
+                  <input type="text" class="form-control" id="agendaLocation" ng-model="details.address" placeholder="ex. Melrose Center, Orlando Public Library, 100 Central Blvd...">
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                  <label for="mapLink">Map Link URL</label>
+                  <p class="small">Paste in a Google Map link.</p>
+                  <input type="text" class="form-control" id="mapLink" ng-model="details.mapLink" placeholder="ex. https://www.google.com/maps/place/Melrose+Center...">
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="form-group">
+                  <label for="webUrl">Website URL</label>
+                  <p class="small">Where can visitors go to learn more about this event?</p>
+                  <input type="text" class="form-control" id="webUrl" ng-model="details.website" placeholder="ex. https://www.myeventpage.com">
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="form-group">
+                  <label for="agendaDescription">Description</label>
+                  <p class="small">This is where you can add whatever additional information may be needed.</p>
+                  <textarea class="form-control" id="agendaDescription" ng-model="details.description" placeholder="ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></textarea>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" ng-model="" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">File input</label>
+              <input type="file" id="exampleInputFile">
+              <p class="help-block">Example block-level help text here.</p>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Check me out
+              </label>
+            </div> -->
+            <button type="submit" class="btn btn-primary btn-lg pull-right">Save & Continue</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h3>Volunteers & Speakers</h3>
+          <div class="person" ng-repeat="person in agenda.people">
+            <img src="person.image" alt="" style="width:20%; float:left">
+            <div style="float:right; width:75%">
+              <div class="person-name">{{person.name}}</div>
+              <div class="person-role">{{person.role}}</div>
+              <p class="person-bio">{{person.bi}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+<!--End container-->

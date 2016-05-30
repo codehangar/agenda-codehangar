@@ -1,5 +1,16 @@
 <!-- HEADER -->
 <!-- <div ng-include="'components/Header-Utils/index.html'"></div> -->
+<div class="edit-header" ng-if="currentUser">
+<!-- <div class="row"> -->
+  <div class="brand pull-left">Ahhhgenda</div>
+  <div class="user pull-right">{{currentUser.email}}</div>
+  <div class="tools text-center">
+    <a class="edit-agenda" ng-click="clickEditAgenda(agenda)"><i class="fa fa-pencil"></i> Edit Agenda</a>
+  </div>
+  
+<!-- </div> -->
+  
+</div>
 
 <div class="agenda" style="background: url(http://weventure.org/content/uploads/2016/04/topBG_notext.jpg) center center fixed;">
 

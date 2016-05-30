@@ -47,7 +47,6 @@
     };
 
     $scope.init = function() {
-      AuthSvc.hello();
     };
     $scope.init();
   }

@@ -5,20 +5,23 @@
     .module('utils.codehangar')
     .controller('ApplicationCtrl', ApplicationCtrl);
 
-  function ApplicationCtrl($scope, $rootScope, $timeout, $http, $window, $state, AuthSvc, Session) {
+  function ApplicationCtrl($scope, $rootScope, $timeout, $http, $window, $state, AuthSvc, Session, AUTH_EVENTS) {
 
-    $scope.init = function(){
-      if(Session.userToken){
-        console.log('init AuthSvc.getMe();',AuthSvc.getMe() );
-        AuthSvc.getMe().then(function(response){
-          var user = response.data;
-          $scope.setCurrentUser(user);
-        }).catch(function(error){
-          console.log('promised error', error)
-        })
-        // $scope.setCurrentUser(AuthSvc.getMe().data)
+    $scope.init = function() {
+      if (Session.userToken) {
+        // console.log('init AuthSvc.getMe();',AuthSvc.getMe() );
+        AuthSvc.getMe().then(function(response) {
+            var user = response.data;
+            $scope.setCurrentUser(user);
+          }).catch(function(error) {
+            console.log('promised error', error)
+            if (error.data.code === 400 && error.data.message === "Token has expired") {
+              $rootScope.$broadcast(AUTH_EVENTS.notAuthenticated);
+            }
+          })
+          // $scope.setCurrentUser(AuthSvc.getMe().data)
       }
-      
+
     }
 
     $scope.currentUser = null;
@@ -32,19 +35,13 @@
       $scope.currentUser = user;
     };
 
-    $rootScope.$on("auth-login-success", function(){
-        //do something
-        console.log('go to admin')
-        $state.go("admin");
+    $rootScope.$on("auth-login-success", function() {
+      console.log('go to admin')
+      $state.go("admin");
     });
-    $rootScope.$on("auth-not-authenticated", function(){
-        //do something
-        // $scope.$apply(function() {
-          $state.go("login");
-          // $scope.$apply()
-          console.log('go to login');
-        // });
-        
+    $rootScope.$on("auth-not-authenticated", function() {
+      $state.go("login");
+      console.log('go to login');
     });
 
     $scope.init();

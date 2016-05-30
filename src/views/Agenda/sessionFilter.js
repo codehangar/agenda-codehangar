@@ -3,8 +3,8 @@ angular
   .module('utils.codehangar')
   .filter('bySession', function() {
     return function(sessions, filters) {
-      console.log('filtering ', sessions)
-      console.log('filtering by', filters)
+      // console.log('filtering ', sessions)
+      // console.log('filtering by', filters)
       var out = [];
       if (filters.length === 0) {
         out = sessions

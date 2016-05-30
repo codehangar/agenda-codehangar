@@ -103,6 +103,17 @@
         },
         requiresAuth: true
       })
+      .state('create-agenda', {
+        url: '/agendas/create',
+        views: {
+          'content': {
+            templateUrl: 'views/AgendaCreate/index.html',
+            controller: 'AgendaCreateCtrl',
+            controllerAs: 'AgendaCreateCtrl'
+          }
+        },
+        requiresAuth: true
+      })
       .state('gwc-2016', {
         url: '/gwc-2016',
         views: {
