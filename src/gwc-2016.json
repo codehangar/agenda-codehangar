@@ -25,6 +25,9 @@
     "name": "Group Activity",
     "color": "#268bd2"
   }, {
+    "name": "Field Trip",
+    "color": "#2aa198"
+  }, {
     "name": "Test/Survey",
     "color": "#d33682"
   }],
@@ -264,11 +267,11 @@
     }, {
       "startTime": "12:00",
       "endTime": "1:00 ",
-      "title": "Lunch",
+      "title": "Lunch at Purple, Rock, Scissors",
       "description": "",
       "sessionType": {
-        "name": "Break",
-        "color": "#859900"
+        "name": "Field Trip",
+        "color": "#2aa198"
       }
     }, {
       "startTime": "1:00",
@@ -348,25 +351,7 @@
       }
     }, {
       "startTime": "10:00",
-      "endTime": "10:30",
-      "title": "Guest Speaker",
-      "description": "TBD",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "10:30",
-      "endTime": "11:00",
-      "title": "Binary",
-      "description": "Learn what binary is and how to read and write it",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "11:00",
-      "endTime": "11:30",
+      "endTime": "10:15",
       "title": "Coding: Where we are today and how we got here",
       "description": "",
       "sessionType": {
@@ -374,40 +359,58 @@
         "color": "#b58900"
       }
     }, {
-      "startTime": "11:30",
-      "endTime": "12:00",
-      "title": "Independent Coding",
-      "description": "Codesters Lessons",
+      "startTime": "10:15",
+      "endTime": "10:45",
+      "title": "Binary",
+      "description": "Learn what binary is and how to read and write it @ the Melrose Multitouch Video Wall",
       "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
+        "name": "Group Activity",
+        "color": "#268bd2"
       }
     }, {
-      "startTime": "12:00",
-      "endTime": "1:00 ",
-      "title": "Lunch",
+      "startTime": "10:45",
+      "endTime": "11:00 ",
+      "title": "Break",
       "description": "",
       "sessionType": {
         "name": "Break",
         "color": "#859900"
       }
     }, {
-      "startTime": "1:00",
-      "endTime": "1:15",
-      "title": "P vs NP: One Problem to Rule them All",
-      "description": "Ian Grail talks about the far reaching affects of solving problems with computers.",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "title": "Orlando Regional History Center",
+      "description": "The class will walk through the exhibit workshop, exhibits, and research/archive area and learn about various technologies used in the museum, as well as apps and websites and the roles they play.",
       "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
+        "name": "Field Trip",
+        "color": "#2aa198"
       }
     }, {
-      "startTime": "1:15",
-      "endTime": "2:30",
+      "startTime": "11:30",
+      "endTime": "12:30 ",
+      "title": "Lunch",
+      "description": "In front of Orlando Regional History Center",
+      "sessionType": {
+        "name": "Break",
+        "color": "#859900"
+      }
+    }, {
+      "startTime": "12:30",
+      "endTime": "2:15",
       "title": "Independent Coding",
       "description": "Codesters Lessons",
       "sessionType": {
         "name": "Independent Coding",
         "color": "#6c71c4"
+      }
+    }, {
+      "startTime": "2:15",
+      "endTime": "2:30",
+      "title": "P vs NP: One Problem to Rule them All",
+      "description": "Ian Grail talks about the far reaching affects of solving problems with computers.",
+      "sessionType": {
+        "name": "Lecture",
+        "color": "#b58900"
       }
     }, {
       "startTime": "2:30",
@@ -690,6 +693,16 @@
     }]
   }],
   "people":[{
+    "name":"Leslie Hielema",
+    "role":"Club Advisor",
+    "bio":"Vice President, Florida Institute of Technology, The Orlando Center",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0b7/108/25c4644.jpg"
+  },{
+    "name":"Christina Machado",
+    "role":"Program Coordinator",
+    "bio":"Program Coordinator at weVENTURE",
+    "image":"https://media.licdn.com/media/AAEAAQAAAAAAAAXRAAAAJDlhNTgwYzdlLTdiOTMtNGY5Ni05ZGQ2LWEwYzRlZGYzMjljYw.jpg"
+  },{
     "name":"Cassandra Wilcox",
     "role":"Lead Instructor",
     "bio":"Fullstack Javascript developer, cofounder at Code Hangar, Inc.",
