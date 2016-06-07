@@ -733,7 +733,7 @@
     "name":"Alessandra Vaughan",
     "role":"Volunteer",
     "bio":"Marketing Manager, Digital Strategy & Content Sales at Florida Virtual School",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZjAAAAJGIxMjg1NDFjLTcxZTEtNDA0OS1hZDIzLWFlMTViODYyZmI1Nw.jpg"
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi0AAAAJGI5MDVkYjYxLWJkMTEtNDlhZi04ZTYzLTU3ZGVmZjRlMmMzYg.jpg"
   }, {
     "name":"Durga Subramanian",
     "role":"Volunteer",
@@ -749,6 +749,21 @@
     "role":"Volunteer",
     "bio":"",
     "image":""
+  }, {
+    "name":"Rodrigo Groppa",
+    "role":"Volunteer",
+    "bio":"Software Developer",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUjAAAAJDY2NTBiODhkLTczNjUtNDc3OS1hZTI4LTE5NGVlN2VhODYzOQ.jpg"
+  }, {
+    "name":"Ariana Davis",
+    "role":"Volunteer",
+    "bio":"",
+    "image":""
+  }, {
+    "name":"Kelly Rhodes",
+    "role":"Volunteer",
+    "bio":"Website Developer and Technical Project Manager",
+    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/040/249/33567bb.jpg"
   }, {
     "name":"Holly Akers",
     "role":"Volunteer/Speaker",
