@@ -396,7 +396,7 @@
       }
     }, {
       "startTime": "12:30",
-      "endTime": "2:15",
+      "endTime": "2:30",
       "title": "Independent Coding",
       "description": "Codesters Lessons",
       "sessionType": {
@@ -404,16 +404,16 @@
         "color": "#6c71c4"
       }
     }, {
-      "startTime": "2:15",
-      "endTime": "2:30",
-      "title": "P vs NP: One Problem to Rule them All",
-      "description": "Ian Grail talks about the far reaching affects of solving problems with computers.",
+      "startTime": "2:30",
+      "endTime": "3:30",
+      "title": "Tapping the Power Within",
+      "description": "We will explore our inner and outer worlds and learn about the benefits of meditation with Chonteau.",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
       }
     }, {
-      "startTime": "2:30",
+      "startTime": "3:30",
       "endTime": "4:30",
       "title": "Class Project",
       "description": "Work Time",
@@ -464,8 +464,8 @@
     }, {
       "startTime": "10:15",
       "endTime": "10:30",
-      "title": "Guest Speaker",
-      "description": "Brandy Bergh",
+      "title": "Don’t be afraid to say ‘yes’ ",
+      "description": "Brandy Bergh on taking on new challenges with confidence. Learning to ask for help and also the harder projects. Skills to become a great developer and leader.",
       "sessionType": {
         "name": "Lecture",
         "color": "#b58900"
@@ -657,11 +657,11 @@
     }, {
       "startTime": "3:10",
       "endTime": "3:30",
-      "title": "TBD",
-      "description": "",
+      "title": "Class Project",
+      "description": "Work Time",
       "sessionType": {
-        "name": "",
-        "color": ""
+        "name": "Class Project",
+        "color": "#dc322f"
       }
     }, {
       "startTime": "3:30",
@@ -729,7 +729,7 @@
     "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJMAAAAJDkwYTVkNGE0LTRhYTItNGM2OC05MDdjLTk2YzVlZTgyZmU3ZA.jpg"
   }, {
     "name":"Ian Grail",
-    "role":"Volunteer/Speaker",
+    "role":"Volunteer",
     "bio":"Fullstack Javascript developer, CEO, Co-Founder at Code Hangar, Inc.",
     "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0a9/341/255e11c.jpg"
   }, {
@@ -807,6 +807,11 @@
     "role":"Speaker",
     "bio":"Developer, Designer and Doer",
     "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMSAAAAJDZiNDUyYzI5LWI3NzQtNGU2NS1iNTBhLWZmOTUxNmVlMGQyZA.jpg"
+  }, {
+    "name":"Chonteau",
+    "role":"Speaker",
+    "bio":"Chonteau is a Intuitive Life Coach and Soul Navigator. She teaches women how to meditate and live more mindfully.",
+    "image":"https://frontporchradio.files.wordpress.com/2016/03/chonteaus-spp-session-2.jpg?w=600&h=560"
   }
   ]
 }
