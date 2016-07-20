@@ -1,14 +1,14 @@
 {
-  "title": "Tech Sassy’preneur 2- Day Schedule",
+  "title": "Tech Sassy’preneur 2-Day Schedule",
   "startDate": "Thursday, July 21",
   "endDate": "Friday, July 22",
   "address": "weVENTURE Orlando Inside CANVS - 101 South Garland Avenue #108 Orlando, FL 32801",
-  "mapLink": "https://www.google.com/maps/place/weVENTURE/@28.0647876,-80.6189225,15z/data=!4m2!3m1!1s0x0:0x96ad8b11567c65e3?sa=X&ved=0ahUKEwiuvI6uloLOAhWDOiYKHVDxCMAQ_BIIdjAK",
+  "mapLink": "https://www.google.com/maps/place/Canvs/@28.5409457,-81.3834457,17z/data=!3m1!4b1!4m5!3m4!1s0x88e77affb35f0db5:0x7b502da35897a91!8m2!3d28.540941!4d-81.381257",
   "description": "",
   "sessionTypes": [],
   "plan": [{
     "date": "Thursday, July 21",
-    "description": "Camp Day 1- Lean Canvas",
+    "description": "Camp Day 1 - Lean Canvas",
     "sessions": [{
       "startTime": "8:00",
       "endTime": "9:00",
@@ -43,7 +43,7 @@
     }, {
       "startTime": "10:45",
       "endTime": "11:30",
-      "title": "Lean Canvas Workshop 1 Tech Idea &amp; Potential Customers – Danya Shea",
+      "title": "Lean Canvas Workshop 1 Tech Idea & Potential Customers – Danya Shea",
       "description" : "",
       "sessionType": {
         "color": "#009933"
