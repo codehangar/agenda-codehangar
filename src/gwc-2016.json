@@ -193,27 +193,27 @@
   "people":[{
     "name":"Asia Hall",
     "role":"Mentor, Team A, Day 1 & 2",
-    "bio":"",
+    "bio":"CEO Neon Cowboys",
     "image":""
   },{
     "name":"Marni Mulligan (Fatt Family)",
     "role":"Mentor, Team B, Day 1",
-    "bio":"",
+    "bio":"Director of Operations at Fattmerchant",
     "image":""
   },{
     "name":"Leyla Colon (Fatt Family)",
     "role":"Mentor, Team B, Day 2",
-    "bio":"",
+    "bio":"Director of Business Development for Fattmerchant",
     "image":""
   },{
     "name":"Chandra Arthur",
     "role":"Mentor, Team C, Day 1 & 2",
-    "bio":"",
+    "bio":"Founder and CEO of Friendish",
     "image":""
   },{
     "name":"Puja Madan",
     "role":"Mentor, Team D, Day 1 & 2",
-    "bio":"",
+    "bio":"Women's Leadership Coach. Author. Speaker.",
     "image":""
   }]
 }
