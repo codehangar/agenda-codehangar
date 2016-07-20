@@ -1,817 +1,219 @@
 {
-  "title": "Girls Who Code Orlando 2016",
-  "subtitle": "Summer Club Session A",
-  "startDate": "Monday, June 13",
-  "endDate": "Friday, June 17",
-  "address": "Melrose Center at the Orlando Public Library, 101 E. Central Blvd. Orlando, FL 32801",
-  "mapLink": "https://www.google.com/maps/place/Melrose+Center/@28.5424635,-81.3793376,17z/data=!3m1!4b1!4m5!3m4!1s0x88e77afc378b4f97:0x88eb726c5efaecd4!8m2!3d28.5424635!4d-81.3771489",
-  "description": "In response to the need to redefine the conversation with our girls regarding futures in technology and science, weVENTURE powered by the Florida Institute of Technology is launching the national program Girls Who Code in Orlando to shift the landscape of technology.",
-  "sessionTypes": [{
-    "name": "Lecture",
-    "color": "#b58900"
-  }, {
-    "name": "Independent Coding",
-    "color": "#6c71c4"
-  }, {
-    "name": "Break",
-    "color": "#859900"
-  }, {
-    "name": "Class Project",
-    "color": "#dc322f"
-  }, {
-    "name": "Free Time",
-    "color": "#cb4b16"
-  }, {
-    "name": "Group Activity",
-    "color": "#268bd2"
-  }, {
-    "name": "Field Trip",
-    "color": "#2aa198"
-  }, {
-    "name": "Test/Survey",
-    "color": "#d33682"
-  }],
+  "title": "Tech Sassy’preneur 2- Day Schedule",
+  "startDate": "Thursday, July 21",
+  "endDate": "Friday, July 22",
+  "address": "weVENTURE Orlando Inside CANVS - 101 South Garland Avenue #108 Orlando, FL 32801",
+  "mapLink": "https://www.google.com/maps/place/weVENTURE/@28.0647876,-80.6189225,15z/data=!4m2!3m1!1s0x0:0x96ad8b11567c65e3?sa=X&ved=0ahUKEwiuvI6uloLOAhWDOiYKHVDxCMAQ_BIIdjAK",
+  "description": "",
+  "sessionTypes": [],
   "plan": [{
-    "date": "Monday, June 13",
-    "description": "Summer Camp Day 1 - Intro & Setup",
-    "alert": "Dont Forget: Girls will have professional headshots taken in the Melrose photo studio between 1:30-2:30pm :D",
+    "date": "Thursday, July 21",
+    "description": "Camp Day 1- Lean Canvas",
     "sessions": [{
+      "startTime": "8:00",
+      "endTime": "9:00",
+      "title": "Setup",
+      "sessionType": {
+        "color": "#730099"
+      }
+    }, {
       "startTime": "9:00",
       "endTime": "9:30",
-      "title": "Welcome Breakfast",
-      "description": "Welcome everyone to Girls Who Code! Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions.",
+      "title": "Breakfast",
+      "description" : "Migrate girls to conference room after they have finished breakfast",
       "sessionType": {
-        "name": "Break",
-        "color": "#859900"
+        "color": ""
       }
     }, {
-      "startTime": "9:30",
-      "endTime": "9:40",
-      "title": "Student Survey",
-      "description": "Girls Who Code pre-course research survey.",
+      "startTime": "9:00",
+      "endTime": "9:45",
+      "title": "Mentor Morning Pow Wow",
+      "description" : "Cherokee Conference Room",
       "sessionType": {
-        "name": "Test/Survey",
-        "color": "#d33682"
+        "color": ""
       }
     }, {
-      "startTime": "9:40",
-      "endTime": "10:00",
-      "title": "Class Icebreaker, Student Introductions",
-      "description": "Getting to know you through paper airplanes.",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "10:00",
-      "endTime": "10:20",
-      "title": "Course Intro",
-      "description": "Introduction to Girls Who Code and Computer Science.",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "10:20",
-      "endTime": "10:35",
-      "title": "Teaching a Robot to make PB&J",
-      "description": "Holly Akers teaches how to write instructions (programs) that computers can follow.",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "10:35",
+      "startTime": "9:45",
       "endTime": "10:45",
-      "title": "BREAK",
-      "description": "Brief relief for body and mind",
+      "title": "Camp Introductions",
+      "description" : "",
       "sessionType": {
-        "name": "Break",
-        "color": "#859900"
+        "color": ""
       }
     }, {
       "startTime": "10:45",
-      "endTime": "11:00",
-      "title": "Canvas & Codesters Setup",
-      "description": "Students get setup on Canvas and Codesters platforms. Take attendance.",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "11:00",
-      "endTime": "11:15",
-      "title": "Placement Test",
-      "description": "Students take course placement test.",
-      "sessionType": {
-        "name": "Test/Survey",
-        "color": "#d33682"
-      }
-    }, {
-      "startTime": "11:15",
       "endTime": "11:30",
-      "title": "The Coder's Toolbox",
-      "description": "Tools coders need in order to code.",
+      "title": "Lean Canvas Workshop 1 Tech Idea &amp; Potential Customers – Danya Shea",
+      "description" : "",
       "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
+        "color": "#009933"
+      }
+    }, {
+      "startTime": "11:30",
+      "endTime": "12:15",
+      "title": "Breakout 1- Brainstorming the Idea",
+      "description" : "",
+      "sessionType": {
+        "color": "#730099"
+      }
+    }, {
+      "startTime": "12:15",
+      "endTime": "12:45",
+      "title": "Lunch - At Picnic Tables",
+      "description" : "",
+      "sessionType": {
+        "color": ""
+      }
+    }, {
+      "startTime": "12:45",
+      "endTime": "1:30",
+      "title": "Lean Canvas Workshop 2 Front of Canvas – Danya Shea",
+      "description" : "",
+      "sessionType": {
+        "color": "#009933"
+      }
+    }, {
+      "startTime": "1:30",
+      "endTime": "2:30",
+      "title": "Breakout 2 – Getting Down to Business",
+      "description" : "",
+      "sessionType": {
+        "color": "#730099"
+      }
+    }, {
+      "startTime": "2:30",
+      "endTime": "3:15",
+      "title": "Lean Canvas Workshop 3 Back of Canvas – Danya Shea",
+      "description" : "",
+      "sessionType": {
+        "color": "#009933"
+      }
+    }, {
+      "startTime": "3:15",
+      "endTime": "3:45",
+      "title": "Breakout 3 – Mini Working Session",
+      "description" : "",
+      "sessionType": {
+        "color": "#730099"
+      }
+    }, {
+      "startTime": "3:15",
+      "endTime": "3:45",
+      "title": "Closing Comments",
+      "description" : "Team Photos",
+      "sessionType": {
+        "color": ""
+      }
+    }]
+  },{
+    "date": "Friday, July 22",
+    "description": "Camp Day 2 - Pitching",
+    "sessions": [{
+      "startTime": "9:00",
+      "endTime": "9:30",
+      "title": "Breakfast",
+      "description" : "Migrate girls to conference room after they have finished breakfast",
+      "sessionType": {
+        "color": ""
+      }
+    }, {
+      "startTime": "9:00",
+      "endTime": "9:45",
+      "title": "Mentor Morning Pow Wow",
+      "description" : "Cherokee Conference Room",
+      "sessionType": {
+        "color": ""
+      }
+    }, {
+      "startTime": "9:45",
+      "endTime": "10:15",
+      "title": "Camp Introductions",
+      "description" : "",
+      "sessionType": {
+        "color": ""
+      }
+    }, {
+      "startTime": "10:15",
+      "endTime": "12:00",
+      "title": "Breakout 1",
+      "description" : "",
+      "sessionType": {
+        "color": "#d33682"
       }
     }, {
       "startTime": "11:30",
       "endTime": "12:00",
-      "title": "Codesters Intro",
-      "description": "Codesters lesson 1",
+      "title": "Lunch Setup",
+      "description" : "",
       "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
+        "color": ""
       }
     }, {
       "startTime": "12:00",
-      "endTime": "1:00",
-      "title": "Lunch",
-      "description": "",
+      "endTime": "12:45",
+      "title": "Lunch - At Picnic Tables",
+      "description" : "",
       "sessionType": {
-        "name": "Break",
-        "color": "#859900"
+        "color": ""
+      }
+    }, {
+      "startTime": "12:45",
+      "endTime": "1:00",
+      "title": "Regroup Goals for the remainder of the day",
+      "description" : "",
+      "sessionType": {
+        "color": ""
       }
     }, {
       "startTime": "1:00",
       "endTime": "2:30",
-      "title": "Independent Coding",
-      "description": "Codesters Lessons",
+      "title": "Breakout 2",
+      "description" : "Final Pitch Practice",
       "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
-      }
-    }, {
-      "startTime": "2:30",
-      "endTime": "2:40",
-      "title": "BREAK",
-      "description": "",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "2:40",
-      "endTime": "3:40",
-      "title": "Class Project Intro & Idea Generation",
-      "description": "",
-      "sessionType": {
-        "name": "Class Project",
-        "color": "#dc322f"
-      }
-    }, {
-      "startTime": "3:40",
-      "endTime": "4:00",
-      "title": "Melrose Center Tour",
-      "description": "Library staff how the students the amazing technical resources available to them at the Melrose Center.",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "4:00",
-      "endTime": "4:20",
-      "title": "Problem Solving",
-      "description": "How to break down problems and find solutions",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "4:20",
-      "endTime": "4:40",
-      "title": "Class Closing",
-      "description": "Expectations for tomorrow & Closing Icebreaker",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "4:40",
-      "endTime": "5:00",
-      "title": "Free Time",
-      "description": "Girls can socialize, browse the web, work on projects, whatever they like, until we get kicked out.",
-      "sessionType": {
-        "name": "Free Time",
-        "color": "#cb4b16"
-      }
-    }]
-  }, {
-    "date": "Tuesday, June 14",
-    "description": "Summer Camp Day 2",
-    "sessions": [{
-      "startTime": "9:00",
-      "endTime": "9:30",
-      "title": "Breakfast",
-      "description": "Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "9:30",
-      "endTime": "9:50",
-      "title": "Class Icebreaker",
-      "description": "",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "9:50",
-      "endTime": "10:00",
-      "title": "What is software?",
-      "description": "What is software really made of?",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "10:00",
-      "endTime": "10:30",
-      "title": "Independent Coding",
-      "description": "Codesters lessons",
-      "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
-      }
-    }, {
-      "startTime": "10:30",
-      "endTime": "10:40",
-      "title": "BREAK",
-      "description": "",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "10:40",
-      "endTime": "11:40",
-      "title": "Independent Coding",
-      "description": "Codesters lessons",
-      "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
-      }
-    }, {
-      "startTime": "11:40",
-      "endTime": "12:00",
-      "title": "Women Who Code",
-      "description": "Who are some of the most influential female coders today and from history?",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "12:00",
-      "endTime": "1:00 ",
-      "title": "Lunch at Purple, Rock, Scissors",
-      "description": "",
-      "sessionType": {
-        "name": "Field Trip",
-        "color": "#2aa198"
-      }
-    }, {
-      "startTime": "1:00",
-      "endTime": "1:10",
-      "title": "Computer Wizardry, Timesaving Tips & Tricks",
-      "description": "",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "1:10",
-      "endTime": "2:10",
-      "title": "Independent Coding",
-      "description": "Codesters Lessons",
-      "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
-      }
-    }, {
-      "startTime": "2:10",
-      "endTime": "2:20",
-      "title": "BREAK",
-      "description": "",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "2:20",
-      "endTime": "3:00",
-      "title": "Class Project",
-      "description": "Work Time",
-      "sessionType": {
-        "name": "Class Project",
-        "color": "#dc322f"
-      }
-    }, {
-      "startTime": "3:00",
-      "endTime": "4:30",
-      "title": "Arduino Workshop",
-      "description": "Lead by Melrose Staff in the Fab Lab",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "4:30",
-      "endTime": "5:00",
-      "title": "Class Project",
-      "description": "Work Time",
-      "sessionType": {
-        "name": "Class Project",
-        "color": "#dc322f"
-      }
-    }]
-  }, {
-    "date": "Wednesday, June 15",
-    "description": "Summer Camp Day 3",
-    "sessions": [{
-      "startTime": "9:00",
-      "endTime": "9:30",
-      "title": "Breakfast",
-      "description": "Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "9:30",
-      "endTime": "10:00",
-      "title": "Student Picks",
-      "description": "Students share neat things they know about or are interested in with the class",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "10:00",
-      "endTime": "10:15",
-      "title": "Coding: Where we are today and how we got here",
-      "description": "",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "title": "Binary",
-      "description": "Learn what binary is and how to read and write it @ the Melrose Multitouch Video Wall",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "10:45",
-      "endTime": "11:00 ",
-      "title": "Break",
-      "description": "",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "11:00",
-      "endTime": "11:30",
-      "title": "Orlando Regional History Center",
-      "description": "The class will walk through the exhibit workshop, exhibits, and research/archive area and learn about various technologies used in the museum, as well as apps and websites and the roles they play.",
-      "sessionType": {
-        "name": "Field Trip",
-        "color": "#2aa198"
-      }
-    }, {
-      "startTime": "11:30",
-      "endTime": "12:30 ",
-      "title": "Lunch",
-      "description": "In front of Orlando Regional History Center",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "12:30",
-      "endTime": "2:30",
-      "title": "Independent Coding",
-      "description": "Codesters Lessons",
-      "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
-      }
-    }, {
-      "startTime": "2:30",
-      "endTime": "3:30",
-      "title": "Tapping the Power Within",
-      "description": "We will explore our inner and outer worlds and learn about the benefits of meditation with Chonteau.",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "3:30",
-      "endTime": "4:30",
-      "title": "Class Project",
-      "description": "Work Time",
-      "sessionType": {
-        "name": "Class Project",
-        "color": "#dc322f"
-      }
-    }, {
-      "startTime": "4:30",
-      "endTime": "5:00",
-      "title": "Closing",
-      "description": "Expectations for Tomorrow & Closing Icebreaker",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }]
-  }, {
-    "date": "Thursday, June 16",
-    "description": "Summer Camp Day 4",
-    "sessions": [{
-      "startTime": "9:00",
-      "endTime": "9:30",
-      "title": "Breakfast",
-      "description": "Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "9:30",
-      "endTime": "10:00",
-      "title": "Class Icebreaker",
-      "description": "",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "10:00",
-      "endTime": "10:15",
-      "title": "Today's Most Popular Programming Languages",
-      "description": "Recognize them by name and know what they are used for.",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "10:15",
-      "endTime": "10:30",
-      "title": "Don’t be afraid to say ‘yes’ ",
-      "description": "Brandy Bergh on taking on new challenges with confidence. Learning to ask for help and also the harder projects. Skills to become a great developer and leader.",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "10:30",
-      "endTime": "10:40",
-      "title": "BREAK",
-      "description": "",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "10:40",
-      "endTime": "11:40",
-      "title": "Independent Coding",
-      "description": "Codesters Lessons",
-      "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
-      }
-    }, {
-      "startTime": "11:40",
-      "endTime": "12:00",
-      "title": "Frontend vs Backend",
-      "description": "What are they and whats the difference?",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "12:00",
-      "endTime": "1:00",
-      "title": "Lunch",
-      "description": "",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "1:00",
-      "endTime": "2:00",
-      "title": "Independent Coding",
-      "description": "Codesters lessons",
-      "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
-      }
-    }, {
-      "startTime": "2:00",
-      "endTime": "2:30",
-      "title": "Chasing Down, Breaking Down, Building Up, Then Breaking Through",
-      "description": "Jaime Joyce brings us a story about how the wisdom and experience of failure and fumbles provide the fertile ground from which to grow to be a stronger, more effective, and more resilient leader.",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "2:30",
-      "endTime": "2:40",
-      "title": "BREAK",
-      "description": "",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "2:40",
-      "endTime": "3:00",
-      "title": "Browser Hacking",
-      "description": "Learn how to use Chrome developer tools to inspect and modify code from the websites you visit.",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "3:00",
-      "endTime": "3:30",
-      "title": "What can you do with an API?",
-      "description": "Learn what a API is and how can you use it?",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "3:30",
-      "endTime": "4:30",
-      "title": "Class Project",
-      "description": "Work Time",
-      "sessionType": {
-        "name": "Class Project",
-        "color": "#dc322f"
-      }
-    }, {
-      "startTime": "4:30",
-      "endTime": "5:00",
-      "title": "Closing",
-      "description": "Expectations for Tomorrow & Closing Icebreaker",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }]
-  }, {
-    "date": "Friday, June 17",
-    "description": "Summer Camp Day 5",
-    "sessions": [{
-      "startTime": "9:00",
-      "endTime": "9:30",
-      "title": "Breakfast",
-      "description": "Socialize, eat bagels, drink juice, and be friendly. Volunteer Introductions",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "9:30",
-      "endTime": "9:50",
-      "title": "Class Icebreaker",
-      "description": "",
-      "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
-      }
-    }, {
-      "startTime": "9:50",
-      "endTime": "11:00",
-      "title": "Independent Coding",
-      "description": "Codesters Lessons",
-      "sessionType": {
-        "name": "Independent Coding",
-        "color": "#6c71c4"
-      }
-    }, {
-      "startTime": "11:00",
-      "endTime": "11:15",
-      "title": "Guest Speaker, Erin Denton on Open Source Projects",
-      "description": "Erin Denton is a freelance graphic designer and co-captain of Code for Orlando, a community organization that works to make Orlando an Open Data City.",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "11:15",
-      "endTime": "11:45",
-      "title": "Open Source & Github Continued",
-      "description": "Discover open source projects and create your Github profile.",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "11:45",
-      "endTime": "12:00",
-      "title": "Online Learning Tools",
-      "description": "Learn more about the resources available online to help you code.",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "12:00",
-      "endTime": "1:00",
-      "title": "Lunch",
-      "description": "",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "1:00",
-      "endTime": "3:00",
-      "title": "Class Project",
-      "description": "Work Time",
-      "sessionType": {
-        "name": "Class Project",
-        "color": "#dc322f"
-      }
-    }, {
-      "startTime": "3:00",
-      "endTime": "3:10",
-      "title": "BREAK",
-      "description": "",
-      "sessionType": {
-        "name": "Break",
-        "color": "#859900"
-      }
-    }, {
-      "startTime": "3:10",
-      "endTime": "3:30",
-      "title": "Class Project",
-      "description": "Work Time",
-      "sessionType": {
-        "name": "Class Project",
-        "color": "#dc322f"
-      }
-    }, {
-      "startTime": "3:30",
-      "endTime": "3:40",
-      "title": "Guest Speaker",
-      "description": "Jen Odess",
-      "sessionType": {
-        "name": "Lecture",
-        "color": "#b58900"
-      }
-    }, {
-      "startTime": "3:40",
-      "endTime": "4:00",
-      "title": "Student Survey",
-      "description": "Girls Who Code post-course research survey.",
-      "sessionType": {
-        "name": "Test/Survey",
         "color": "#d33682"
       }
     }, {
-      "startTime": "4:00",
-      "endTime": "5:00",
-      "title": "Graduation Ceremony",
-      "description": "Parents are invited to attend Class Project Demos and Graduation.",
+      "startTime": "2:30",
+      "endTime": "3:30",
+      "title": "Tech Sassy Pitch & Judging",
+      "description" : "",
       "sessionType": {
-        "name": "Group Activity",
-        "color": "#268bd2"
+        "color": "#e6b800"
+      }
+    }, {
+      "startTime": "3:30",
+      "endTime": "4:00",
+      "title": "Closing",
+      "description" : "Team Photos",
+      "sessionType": {
+        "color": ""
       }
     }]
   }],
   "people":[{
-    "name":"Leslie Hielema",
-    "role":"Club Advisor",
-    "bio":"Vice President, Florida Institute of Technology, The Orlando Center",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0b7/108/25c4644.jpg"
-  },{
-    "name":"Christina Machado",
-    "role":"Program Coordinator",
-    "bio":"Program Coordinator at weVENTURE",
-    "image":"https://media.licdn.com/media/AAEAAQAAAAAAAAXRAAAAJDlhNTgwYzdlLTdiOTMtNGY5Ni05ZGQ2LWEwYzRlZGYzMjljYw.jpg"
-  },{
-    "name":"Cassandra Wilcox",
-    "role":"Lead Instructor",
-    "bio":"Fullstack Javascript developer, cofounder at Code Hangar, Inc.",
-    "image":"http://codehangar.io/content/images/2015/10/cass.jpg"
-  }, {
-    "name":"Kaytee Cannon",
-    "role":"Volunteer",
-    "bio":"iOS Developer and creator of Persist A List, available in the App Store",
-    "image":"./images/KayteeCannon.jpg"
-  }, {
-    "name":"Angelica Yarde",
-    "role":"Volunteer",
-    "bio":"UI/UX/Print Designer & Front-End Developer",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/046/27d/35e6377.jpg"
-  }, {
-    "name":"Audrey Mohlenhoff",
-    "role":"Volunteer",
-    "bio":"Electrical Engineer",
-    "image":"./images/Audrey.jpg"
-  }, {
-    "name":"Stacey Baldini",
-    "role":"Volunteer",
-    "bio":"Designer / Instructor @ Skillcrush",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJMAAAAJDkwYTVkNGE0LTRhYTItNGM2OC05MDdjLTk2YzVlZTgyZmU3ZA.jpg"
-  }, {
-    "name":"Ian Grail",
-    "role":"Volunteer",
-    "bio":"Fullstack Javascript developer, CEO, Co-Founder at Code Hangar, Inc.",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0a9/341/255e11c.jpg"
-  }, {
-    "name":"Renee Blunt",
-    "role":"Volunteer",
-    "bio":"Senior Engineer / Full Stack at Purple Rock Scissors",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALiAAAAJDkwMTk5OWQwLTU3MjUtNDY0My04YmMxLTBmY2I2Yzg2MTg0Zg.jpg"
-  }, {
-    "name":"Laura Seletos",
-    "role":"Volunteer",
-    "bio":"Technical Account Manager at Qualys",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/000/235/1fa/22043ed.jpg"
-  }, {
-    "name":"Alessandra Vaughan",
-    "role":"Volunteer",
-    "bio":"Marketing Manager, Digital Strategy & Content Sales at Florida Virtual School",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi0AAAAJGI5MDVkYjYxLWJkMTEtNDlhZi04ZTYzLTU3ZGVmZjRlMmMzYg.jpg"
-  }, {
-    "name":"Durga Subramanian",
-    "role":"Volunteer",
-    "bio":"Software Developer at RIP-IT Sporting Goods",
-    "image":"https://media.licdn.com/media/p/3/000/0f2/018/3f0343e.jpg"
-  }, {
-    "name":"Erin Butler",
-    "role":"Volunteer",
-    "bio":"Brand Manager / Content Strategist, Purple, Rock, Scissors",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0b0/157/3044bf2.jpg"
-  }, {
-    "name":"Carlota Pearl",
-    "role":"Volunteer",
+    "name":"Asia Hall",
+    "role":"Mentor, Team A, Day 1 & 2",
     "bio":"",
     "image":""
-  }, {
-    "name":"Rodrigo Groppa",
-    "role":"Volunteer",
-    "bio":"Software Developer",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUjAAAAJDY2NTBiODhkLTczNjUtNDc3OS1hZTI4LTE5NGVlN2VhODYzOQ.jpg"
-  }, {
-    "name":"Ariana Davis",
-    "role":"Volunteer",
+  },{
+    "name":"Marni Mulligan (Fatt Family)",
+    "role":"Mentor, Team B, Day 1",
     "bio":"",
     "image":""
-  }, {
-    "name":"Kelly Rhodes",
-    "role":"Volunteer",
-    "bio":"Website Developer and Technical Project Manager",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/040/249/33567bb.jpg"
-  }, {
-    "name":"Holly Akers",
-    "role":"Volunteer/Speaker",
-    "bio":"Tinkerer, Part Time HomeSchool Teacher / Computer Science Teacher",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJnAAAAJGE5NzhkYjM2LTM5MDktNGE4NS1iNDRjLWEwZDdhNDM3NzUwNg.jpg"
-  }, {
-    "name":"Erin (Fonzi) Denton",
-    "role":"Volunteer/Speaker",
-    "bio":"Design and Illustration Creative, Co-captain at Code for Orlando",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAQxAAAAJGYyYzE2MzE2LThjZmQtNGJkNC1hZjAyLWJlOTM1OTEyOGY1Nw.jpg"
-  }, {
-    "name":"Natalie Bednarz",
-    "role":"Volunteer",
-    "bio":"Principal Consultant at Rootwork InfoTech LLC",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/000/298/31f/01d1c6e.jpg"
-  }, {
-    "name":"Jaime Joyce",
-    "role":"Speaker",
-    "bio":"Activist, archivist, and artist. She is also the founding president of the Society Library and the informational architect of it's Internet Government, the founder of the Orlando Urban Archives, and a board member of Familab - the Orlando area's original Hackerspace.",
-    "image":"./images/JamieJoyce.jpg"
-  }, {
-    "name":"Jen Odess",
-    "role":"Speaker",
-    "bio":"Manager, Data Science Operations at Appirio",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAk2AAAAJDViMmNlZmYzLTVjMWMtNGJkOC05MGEyLTZjMWExNzNlNzI2Mg.jpg"
-  }, {
-    "name":"Brandy Bergh",
-    "role":"Speaker",
-    "bio":"Developer, Designer and Doer",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMSAAAAJDZiNDUyYzI5LWI3NzQtNGU2NS1iNTBhLWZmOTUxNmVlMGQyZA.jpg"
-  }, {
-    "name":"Chonteau",
-    "role":"Speaker",
-    "bio":"Chonteau is a Intuitive Life Coach and Soul Navigator. She teaches women how to meditate and live more mindfully.",
-    "image":"https://frontporchradio.files.wordpress.com/2016/03/chonteaus-spp-session-2.jpg?w=600&h=560"
-  }
-  ]
+  },{
+    "name":"Leyla Colon (Fatt Family)",
+    "role":"Mentor, Team B, Day 2",
+    "bio":"",
+    "image":""
+  },{
+    "name":"Chandra Arthur",
+    "role":"Mentor, Team C, Day 1 & 2",
+    "bio":"",
+    "image":""
+  },{
+    "name":"Puja Madan",
+    "role":"Mentor, Team D, Day 1 & 2",
+    "bio":"",
+    "image":""
+  }]
 }

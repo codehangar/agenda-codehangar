@@ -32,6 +32,7 @@ require('./components/Footer/Footer.js');
 //JS VIEW CONTROLLERS
 require('./views/Home/index.js')
 require('./views/Agenda/index.js')
+require('./views/Agenda2/index.js')
 require('./views/AgendaCreate/index.js')
 require('./views/Login/index.js')
 require('./views/Register/index.js')

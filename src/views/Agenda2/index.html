@@ -1,0 +1,144 @@
+<!-- HEADER -->
+<!-- <div ng-include="'components/Header-Utils/index.html'"></div> -->
+<div class="edit-header" ng-if="currentUser">
+<!-- <div class="row"> -->
+  <div class="brand pull-left">Ahhhgenda</div>
+  <div class="user pull-right">{{currentUser.email}}</div>
+  <div class="tools text-center">
+    <a class="edit-agenda" ng-click="clickEditAgenda(agenda)"><i class="fa fa-pencil"></i> Edit Agenda</a>
+  </div>
+  
+<!-- </div> -->
+  
+</div>
+
+<div class="agenda" style="background: url(http://weventure.org/content/uploads/2016/07/TSGP_Flyer.png) center center fixed;">
+
+
+  <div class="container">
+
+    <!-- Agenda Header -->
+    <div class="agenda-header">
+      <div class="row">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="col-sm-12">
+
+              <!-- Agenda Name -->
+              <h1 class="agenda-title">{{agenda.title}}</h1>
+              <!-- Agenda Subtitle -->
+              <h2 class="agenda-subtitle">{{agenda.subtitle}}</h2>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6">
+              <!-- Agenda Dates -->
+              <p><strong><i class="fa fa-calendar"></i> </strong>{{agenda.startDate}} - {{agenda.endDate}}</p>
+              <p><strong><i class="fa fa-globe"></i> </strong><a href="https://www.google.com/url?hl=en&q=http://weventure.org/events/2016/07/tech-sassypreneur-camp-2016/&source=gmail&ust=1469061742159000&usg=AFQjCNFBUs_yUIj0JPO4031-xY_75gv2wQ" target="_blank">Register</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <!-- Event Location -->
+              <p><strong><i class="fa fa-map-marker"></i>  </strong><a ng-href="{{agenda.mapLink}}" target="_blank">{{agenda.address}}</a></p>
+              <!-- Event Description -->
+            </div>
+
+            <div class="col-xs-12">
+              <!-- <a ng-click="isCollapsed = !isCollapsed">Toggle details</a> -->
+              <!-- <div class="collapse" uib-collapse="isCollapsed"> -->
+              <p>{{agenda.description}}</p>
+              <!-- </div> -->
+
+            </div>
+
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Agenda Details -->
+    <!--     <div class="agenda-details">
+      <div class="row">
+
+
+      </div> -->
+
+
+    <!-- Agenda Session Key -->
+    <!--     <div class="row">
+      <div class="panel panel-default">
+        <div class="panel-body">
+
+        </div>
+      </div>
+    </div> -->
+  </div>
+  <!-- Agenda -->
+  <div class="container">
+    <div class="row" style="position:relative;">
+
+
+      <div class="col-xs-12 col-sm-8 agenda-plan">
+
+        <!-- Day Container -->
+        <div class="agenda-day" ng-repeat="day in agenda.plan">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <!-- <div class="col-sm-12"> -->
+              <div ng-click="day.isCollapsed = !day.isCollapsed">
+                <div class="agenda-date">{{day.date}}</div>
+                <div class="agenda-day-description">{{day.description}}</div>
+                <div class="agenda-day-alert">{{day.alert}}</div>
+              </div>
+              <div uib-collapse="day.isCollapsed">
+
+                <!-- Session Container -->
+                <div class="agenda-time-slot" ng-repeat="session in day.sessions | bySession:sessionFilters" ng-style="{'border-color':session.sessionType.color}">
+                  <div class="time-label" ng-style="{'color':session.sessionType.color}"><span class="start-time">{{session.startTime}}</span> - <span class="end-time">{{session.endTime}}</span></div>
+                  <div class="session">
+                    <div class="session-title">{{session.title}}</div>
+                    <div class="session-description">{{session.description}}</div>
+                    <div class="session-type-label">{{session.sessionType.name}}</div>
+                  </div>
+                </div>
+                <!-- </div> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 people-panel">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h4>Volunteers & Speakers</h4>
+            <div class="row person" ng-repeat="person in agenda.people">
+              <!-- <div class="col-xs-4 col-sm-12 col-md-4">
+                <img ng-src="{{person.image}}" alt="" style="width:100%">
+              </div> -->
+              <div class="col-xs-12">
+                <div class="person-name">{{person.name}}</div>
+                <div class="person-role">{{person.role}}</div>
+                <p class="person-bio">{{person.bio}}</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="text-center powered-by"><a href="/">Ahhhgenda</a> is powered by <a href="https://codehangar.io">Code Hangar</a></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- <hr> -->
+<!-- <div footer></div> -->

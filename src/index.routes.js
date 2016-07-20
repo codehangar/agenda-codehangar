@@ -119,6 +119,15 @@
         views: {
           'content': {
             templateUrl: 'views/Agenda/index.html',
+            controller: 'Agenda2Ctrl',
+            controllerAs: 'Agenda2Ctrl'
+          }
+        }
+      }).state('tech-sassypreneur', {
+        url: '/tech-sassypreneur',
+        views: {
+          'content': {
+            templateUrl: 'views/Agenda2/index.html',
             controller: 'AgendaCtrl',
             controllerAs: 'AgendaCtrl'
           }
