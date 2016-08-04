@@ -16,7 +16,7 @@
 
     function getAgenda() {
       console.log('get agenda');
-      $http.get('tech-sassy.json').success(function(response) {
+      $http.get('gwc-2016-b.json').success(function(response) {
         $scope.agenda = response;
         console.log('$scope.agenda', $scope.agenda);
       });
